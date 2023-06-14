@@ -1,0 +1,2 @@
+[08-Jul-2022 16:54:38 UTC] PHP Warning:  Declaration of WP_CLI\UpgraderSkin::feedback($string) should be compatible with WP_Upgrader_Skin::feedback($feedback, ...$args) in phar:///usr/local/bin/wp/php/WP_CLI/UpgraderSkin.php on line 59
+[08-Jul-2022 16:54:42 UTC] PHP Warning:  Declaration of WP_CLI\UpgraderSkin::feedback($string) should be compatible with WP_Upgrader_Skin::feedback($feedback, ...$args) in phar:///usr/local/bin/wp/php/WP_CLI/UpgraderSkin.php on line 59

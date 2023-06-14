@@ -1,0 +1,398 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    
+    <!-- Hotjar Tracking Code for https://www.daydone.com.ng -->
+<script>
+    (function(h,o,t,j,a,r){
+        h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+        h._hjSettings={hjid:2882172,hjsv:6};
+        a=o.getElementsByTagName('head')[0];
+        r=o.createElement('script');r.async=1;
+        r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+        a.appendChild(r);
+    })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+</script>
+
+    <!--====== Required meta tags ======-->
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!--====== Title ======-->
+    <title>Garri | DayDone</title>
+
+    <!--====== Favicon Icon ======-->
+    <link rel="shortcut icon" href="assets/images/favicon.ico" type="image/png">
+
+    <!--====== Bootstrap css ======-->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+
+    <!--====== Line Icons css ======-->
+    <link rel="stylesheet" href="assets/css/LineIcons.css">
+
+    <!--====== Magnific Popup css ======-->
+    <link rel="stylesheet" href="assets/css/magnific-popup.css">
+
+    <!--====== Slick css ======-->
+    <link rel="stylesheet" href="assets/css/slick.css">
+
+    <!--====== Animate css ======-->
+    <link rel="stylesheet" href="assets/css/animate.css">
+
+    <!--====== Default css ======-->
+    <link rel="stylesheet" href="assets/css/default.css">
+
+    <!--====== Style css ======-->
+    <link rel="stylesheet" href="assets/css/style.css">
+
+        <!--====== Popup css ======-->
+        <link rel="stylesheet" href="assets/css/popup.css">
+
+    <!--====== Google fonts ======-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css" integrity="sha512-10/jx2EXwxxWqCLX/hHth/vu2KY3jCF70dCQB8TSgNjbCVAC/8vai53GfMDrO2Emgwccf2pJqxct9ehpzG+MTw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+
+<script>
+
+jQuery(document).ready(function($) {
+    
+
+
+if (window.history && window.history.pushState) {
+
+  window.history.pushState('forward', null, './#forward');
+
+  $(window).on('popstate', function() {
+  $('.lightbox').slideDown();
+  });
+
+}
+});
+
+
+            sessionStorage.setItem("popup_count", 0);
+
+function addEvent(obj, evt, fn) {
+    if (obj.addEventListener) {
+        obj.addEventListener(evt, fn, false);
+    } else if (obj.attachEvent) {
+        obj.attachEvent("on" + evt, fn);
+    }
+}
+
+addEvent(document, 'mouseout', function(evt) {
+    if (evt.toElement == null && evt.relatedTarget == null) {
+        
+        if(sessionStorage.getItem("popup_count")){
+            if(sessionStorage.getItem("popup_count") >= 2){
+
+            }
+            else{
+                let  popup = eval(sessionStorage.getItem("popup_count")) + 1;
+                sessionStorage.setItem("popup_count", popup)
+                $('.lightbox').slideDown();
+                       
+            }
+        }
+        else{
+            $('.lightbox').slideDown();
+            sessionStorage.setItem("popup_count", 1);
+        }
+    };
+});
+
+function close_popup(){
+        $('.lightbox').slideUp();
+}
+
+</script>
+
+</head>
+
+<body>
+
+ 
+    <section class="header-area">
+        <div class="navbar-area">
+            <div class="container"  style="margin-bottom: -5px;">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <nav class="navbar navbar-expand-lg">
+                            <a class="navbar-brand" href="https://daydone.com.ng">
+                                <img src="assets/images/logo.webp" alt="Logo">
+                            </a>
+                        </nav>
+                    </div>
+                </div> 
+            </div> 
+        </div>
+        
+        <div id="home" class="slider-area">
+            <div class="bd-example">
+                <div id="carouselOne" class="carousel slide" data-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item bg_cover active" style="background-image: url(assets/images/garri.jpg)">
+                            <div class="carousel-caption">
+                                <div class="container">
+                                    <div class="row justify-content-center">
+                                        <div class="col-xl-7 col-lg-7 col-sm-10">
+                                            <h2 class="carousel-title">Freshly processed, <br>well packaged Ilora Garri</h2>
+                                            <ul class="carousel-btn rounded-buttons" style="margin-top:-50px;">
+                                                <li><a class="main-btn rounded-three" href="https://daydone.com.ng/garri?prod=111">Buy Now</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div> 
+                        </div>
+                    </div> 
+                </div> 
+            </div> 
+        </div>
+
+    </section>
+
+
+
+
+
+    <section id="pricing" class="pricing-area">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-6">
+                    <div class="section-title text-center pb-20">
+                        <h3 class="title">Pricing</h3>
+                        <p class="text">We offer mouth watering discounts for customers buying in large quantities</p>
+                    </div> 
+                </div>
+            </div> 
+            <div class="row justify-content-center">                
+        
+                <div class="col-lg-4 col-md-7 col-sm-9">
+                    <div class="pricing-style-one mt-40 wow fadeIn" data-wow-duration="1.5s" data-wow-delay="0.8s">
+                        <div class="pricing-icon text-center">
+                            <img src="assets/images/half.jpg" alt="">
+                        </div>
+                        <div class="pricing-header text-center">
+                            <h5 class="sub-title">Half Bag</h5>
+                            <p class="month"><span class="price">₦ 10,700</span>/half bag</p>
+                        </div>
+                        <div class="pricing-list">
+                            <ul>
+                                <li><i class="lni-check-mark-circle"></i>Super Clean</li>
+                                <li><i class="lni-check-mark-circle"></i>Well packaged and bagged</li>
+                                <li><i class="lni-check-mark-circle"></i> 104 Congos</li>
+                                <li><i class="lni-check-mark-circle"></i> Fast Delivery</li>
+                            </ul>
+                        </div>
+                        <div class="pricing-btn rounded-buttons text-center">
+                            <a class="main-btn rounded-three" href="https://daydone.com.ng/garri?prod=111">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-lg-4 col-md-7 col-sm-9">
+                    <div class="pricing-style-one mt-40 wow fadeIn" data-wow-duration="1.5s" data-wow-delay="0.5s">
+                        <div class="pricing-icon text-center">
+                            <img src="assets/images/1bag.jpg" alt="">
+                        </div>
+                        <div class="pricing-header text-center">
+                            <h5 class="sub-title">1 to 4 Bags</h5>
+                            <p class="month"><span class="price">₦ 21,000</span>/bag</p>
+                        </div>
+                        <div class="pricing-list">
+                            <ul>
+                                <li><i class="lni-check-mark-circle"></i>Super Clean</li>
+                                <li><i class="lni-check-mark-circle"></i>Well packaged and bagged</li>
+                                <li><i class="lni-check-mark-circle"></i> 104 Congos</li>
+                                <li><i class="lni-check-mark-circle"></i> Fast Delivery</li>
+                            </ul>
+                        </div>
+                        <div class="pricing-btn rounded-buttons text-center">
+                            <a class="main-btn rounded-three" href="https://daydone.com.ng/garri?prod=111">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-4 col-md-7 col-sm-9">
+                    <div class="pricing-style-one mt-40 wow fadeIn" data-wow-duration="1.5s" data-wow-delay="0.8s">
+                        <div class="pricing-icon text-center">
+                            <img src="assets/images/5bags.jpg" alt="">
+                        </div>
+                        <div class="pricing-header text-center">
+                            <h5 class="sub-title">above 5 Bags</h5>
+                            <p class="month"><span class="price">₦ 20,500</span>/bag</p>
+                        </div>
+                        <div class="pricing-list">
+                            <ul>
+                                <li><i class="lni-check-mark-circle"></i>Super Clean</li>
+                                <li><i class="lni-check-mark-circle"></i>Well packaged and bagged</li>
+                                <li><i class="lni-check-mark-circle"></i> 104 Congos</li>
+                                <li><i class="lni-check-mark-circle"></i> Fast Delivery</li>
+                            </ul>
+                        </div>
+                        <div class="pricing-btn rounded-buttons text-center">
+                            <a class="main-btn rounded-three" href="https://daydone.com.ng/garri?prod=111">Buy Now</a>
+                        </div>
+                    </div> 
+                </div>
+            </div>
+        </div> 
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <section id="testimonial" class="testimonial-area">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-6">
+                    <div class="section-title text-center pb-20">
+                        <h3 class="title">Reviews</h3>
+                    </div> 
+                </div>
+            </div> 
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="row testimonial-active">
+                        <div class="col-lg-6">
+                            <div class="single-testimonial mt-30 mb-30 text-center">
+                                <div class="testimonial-content">
+                                    <p class="text"><br>Nice doing business with you.<br><br><br></p>
+                                    <h6 class="author-name">Alafia Distribution Ltd</h6>
+                                </div>
+                            </div> 
+                        </div>
+                        
+                        
+                        <div class="col-lg-6">
+                            <div class="single-testimonial mt-30 mb-30 text-center">
+                                <div class="testimonial-content">
+                                    <p class="text">Although the Garri get to me a little bit late. Its quantity and quality meet my expectations. Thanks. Let's do this again soon.</p>
+                                    <h6 class="author-name">Jomiloju Akande</h6>
+                                </div>
+                            </div> 
+                        </div>
+                        
+                        <div class="col-lg-6">
+                            <div class="single-testimonial mt-30 mb-30 text-center">
+                                <div class="testimonial-content">
+                                    <p class="text"><br>Their Garri is okay, recommend them for any school and party. Thanks<br><br></p>
+                                    <h6 class="author-name">Mrs Oyelola</h6>
+                                </div>
+                            </div> 
+                        </div>
+                        
+                        <div class="col-lg-6">
+                            <div class="single-testimonial mt-30 mb-30 text-center">
+                                <div class="testimonial-content">
+                                    <p class="text"><br>I got the bags regularly for my pond, they delivers on time and in good quantity<br></p>
+                                    <h6 class="author-name">Wahalid Fishery</h6>
+                                </div>
+                            </div> 
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> 
+    </section>
+
+    <!--====== BACK TOP TOP PART START ======-->  
+    <a href="#" class="back-to-top"><i class="lni-chevron-up"></i></a>
+
+    <!--====== BACK TOP TOP PART ENDS ======-->  
+
+
+    <!--====== POPUP START ======-->
+    <div class="lightbox">
+        <div class="box">
+              <div class="card card-6">
+                    <a class="close"><p class="card__exit" onclick="close_popup()"><i class="fas fa-times" style="color:rgb(0, 0, 0); font-size:25px"></i></p></a>
+                    <h2 class="card__title">Get Special Offers And Discount Sent To Your Email</h2>
+
+
+
+                      <section id="call-action" class="call-action-area card__form">
+                              <div class="call-action-form mt-50" style="max-width: 600px; margin: auto; margin-bottom: -500px;">
+                                 <div id="mc_embed_signup">
+                                    <form action="https://daydone.us19.list-manage.com/subscribe/post?u=8a71f2626a6c8da7e505b28df&amp;id=25fd7c90fc" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+                                            <div id="mc_embed_signup_scroll">
+                                            <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="Enter your email" required style="background-color: #fff;">
+                                            <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_cbac2663f87623d30ffc3241c_dbe2ac74c8" tabindex="-1" value=""></div>
+                                            
+                                            <div class="action-btn rounded-buttons">
+                                                <button type="submit" class="main-btn rounded-three" name="subscribe" id="mc-embedded-subscribe" >Go</button>     
+                                          </div></div>
+                                   </form>
+                              </div> </div>     
+                       </section>
+                      
+
+
+                   
+                  </div>
+              </div>
+            
+          </div>
+
+    <!--====== POPUP ENDS ======-->
+
+
+
+
+
+
+
+
+    <!--====== jquery js ======-->
+    <script src="assets/js/vendor/modernizr-3.6.0.min.js"></script>
+    <script src="assets/js/vendor/jquery-1.12.4.min.js"></script>
+
+    <!--====== Bootstrap js ======-->
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/popper.min.js"></script>
+
+    <!--====== Slick js ======-->
+    <script src="assets/js/slick.min.js"></script>
+
+    <!--====== Isotope js ======-->
+    <script src="assets/js/isotope.pkgd.min.js"></script>
+
+    <!--====== Images Loaded js ======-->
+    <script src="assets/js/imagesloaded.pkgd.min.js"></script>
+
+    <!--====== Magnific Popup js ======-->
+    <script src="assets/js/jquery.magnific-popup.min.js"></script>
+
+    <!--====== Scrolling js ======-->
+    <script src="assets/js/scrolling-nav.js"></script>
+    <script src="assets/js/jquery.easing.min.js"></script>
+
+    <!--====== wow js ======-->
+    <script src="assets/js/wow.min.js"></script>
+
+    <!--====== Main js ======-->
+    <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,5 @@
+﻿{
+  "Description": "Domain ownership verification file for Microsoft 365 - place in the website root",
+  "Domain": "daydone.com.ng",
+  "Id": "df5e09fa-c7a2-4a4a-8a2f-0ff4b7032ebe"
+}

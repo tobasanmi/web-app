@@ -1,0 +1,721 @@
+[17-Aug-2022 14:47:57 UTC] PHP Warning:  Undefined array key "user_id" in /home2/daydonec/public_html/darkcode/update.php on line 5
+[18-Aug-2022 16:57:55 UTC] PHP Warning:  Undefined array key "email" in /home2/daydonec/public_html/darkcode/wish.inc.php on line 6
+[18-Aug-2022 16:57:55 UTC] PHP Warning:  Undefined array key "phone" in /home2/daydonec/public_html/darkcode/wish.inc.php on line 6
+[18-Aug-2022 16:57:55 UTC] PHP Warning:  Undefined array key "p_name" in /home2/daydonec/public_html/darkcode/wish.inc.php on line 6
+[18-Aug-2022 16:57:55 UTC] PHP Warning:  Undefined array key "email" in /home2/daydonec/public_html/darkcode/wish.inc.php on line 7
+[18-Aug-2022 16:57:55 UTC] PHP Warning:  Undefined array key "phone" in /home2/daydonec/public_html/darkcode/wish.inc.php on line 8
+[18-Aug-2022 16:57:55 UTC] PHP Warning:  Undefined array key "p_name" in /home2/daydonec/public_html/darkcode/wish.inc.php on line 9
+[18-Aug-2022 16:57:55 UTC] PHP Warning:  Undefined array key "region" in /home2/daydonec/public_html/darkcode/wish.inc.php on line 10
+[18-Aug-2022 17:03:48 UTC] PHP Warning:  include(inc/header.php): Failed to open stream: No such file or directory in /home2/daydonec/public_html/darkcode/payondelivery.php on line 2
+[18-Aug-2022 17:03:48 UTC] PHP Warning:  include(): Failed opening 'inc/header.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home2/daydonec/public_html/darkcode/payondelivery.php on line 2
+[18-Aug-2022 17:03:48 UTC] PHP Warning:  include(inc/footer.php): Failed to open stream: No such file or directory in /home2/daydonec/public_html/darkcode/payondelivery.php on line 48
+[18-Aug-2022 17:03:48 UTC] PHP Warning:  include(): Failed opening 'inc/footer.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home2/daydonec/public_html/darkcode/payondelivery.php on line 48
+[22-Aug-2022 08:59:01 UTC] PHP Warning:  Attempt to read property "status" on array in /home2/daydonec/public_html/darkcode/paystack.ini.php on line 34
+[24-Aug-2022 04:23:45 UTC] PHP Warning:  Undefined array key "email" in /home2/daydonec/public_html/darkcode/wish.inc.php on line 6
+[24-Aug-2022 04:23:45 UTC] PHP Warning:  Undefined array key "phone" in /home2/daydonec/public_html/darkcode/wish.inc.php on line 6
+[24-Aug-2022 04:23:45 UTC] PHP Warning:  Undefined array key "p_name" in /home2/daydonec/public_html/darkcode/wish.inc.php on line 6
+[24-Aug-2022 04:23:45 UTC] PHP Warning:  Undefined array key "email" in /home2/daydonec/public_html/darkcode/wish.inc.php on line 7
+[24-Aug-2022 04:23:45 UTC] PHP Warning:  Undefined array key "phone" in /home2/daydonec/public_html/darkcode/wish.inc.php on line 8
+[24-Aug-2022 04:23:45 UTC] PHP Warning:  Undefined array key "p_name" in /home2/daydonec/public_html/darkcode/wish.inc.php on line 9
+[24-Aug-2022 04:23:45 UTC] PHP Warning:  Undefined array key "region" in /home2/daydonec/public_html/darkcode/wish.inc.php on line 10
+[24-Aug-2022 04:37:08 UTC] PHP Warning:  include_once(../dbh.php): Failed to open stream: No such file or directory in /home2/daydonec/public_html/darkcode/msg.inc.php on line 4
+[24-Aug-2022 04:37:08 UTC] PHP Warning:  include_once(): Failed opening '../dbh.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home2/daydonec/public_html/darkcode/msg.inc.php on line 4
+[24-Aug-2022 04:37:08 UTC] PHP Warning:  Undefined variable $conn in /home2/daydonec/public_html/darkcode/msg.inc.php on line 6
+[24-Aug-2022 04:37:08 UTC] PHP Warning:  Undefined array key "Name" in /home2/daydonec/public_html/darkcode/msg.inc.php on line 6
+[24-Aug-2022 04:37:08 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_real_escape_string(): Argument #1 ($mysql) must be of type mysqli, null given in /home2/daydonec/public_html/darkcode/msg.inc.php:6
+Stack trace:
+#0 /home2/daydonec/public_html/darkcode/msg.inc.php(6): mysqli_real_escape_string()
+#1 {main}
+  thrown in /home2/daydonec/public_html/darkcode/msg.inc.php on line 6
+[29-Aug-2022 09:45:43 UTC] PHP Warning:  include_once(../dbh.php): Failed to open stream: No such file or directory in /home2/daydonec/public_html/darkcode/pay.inc.php on line 4
+[29-Aug-2022 09:45:43 UTC] PHP Warning:  include_once(): Failed opening '../dbh.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home2/daydonec/public_html/darkcode/pay.inc.php on line 4
+[29-Aug-2022 09:45:43 UTC] PHP Warning:  Undefined variable $conn in /home2/daydonec/public_html/darkcode/pay.inc.php on line 6
+[29-Aug-2022 09:45:43 UTC] PHP Warning:  Undefined array key "amount" in /home2/daydonec/public_html/darkcode/pay.inc.php on line 6
+[29-Aug-2022 09:45:43 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_real_escape_string(): Argument #1 ($mysql) must be of type mysqli, null given in /home2/daydonec/public_html/darkcode/pay.inc.php:6
+Stack trace:
+#0 /home2/daydonec/public_html/darkcode/pay.inc.php(6): mysqli_real_escape_string()
+#1 {main}
+  thrown in /home2/daydonec/public_html/darkcode/pay.inc.php on line 6
+[31-Aug-2022 04:28:38 UTC] PHP Warning:  Undefined array key "email" in /home2/daydonec/public_html/darkcode/wish.inc.php on line 6
+[31-Aug-2022 04:28:39 UTC] PHP Warning:  Undefined array key "phone" in /home2/daydonec/public_html/darkcode/wish.inc.php on line 6
+[31-Aug-2022 04:28:39 UTC] PHP Warning:  Undefined array key "p_name" in /home2/daydonec/public_html/darkcode/wish.inc.php on line 6
+[31-Aug-2022 04:28:39 UTC] PHP Warning:  Undefined array key "email" in /home2/daydonec/public_html/darkcode/wish.inc.php on line 7
+[31-Aug-2022 04:28:39 UTC] PHP Warning:  Undefined array key "phone" in /home2/daydonec/public_html/darkcode/wish.inc.php on line 8
+[31-Aug-2022 04:28:39 UTC] PHP Warning:  Undefined array key "p_name" in /home2/daydonec/public_html/darkcode/wish.inc.php on line 9
+[31-Aug-2022 04:28:39 UTC] PHP Warning:  Undefined array key "region" in /home2/daydonec/public_html/darkcode/wish.inc.php on line 10
+[31-Aug-2022 21:52:36 UTC] PHP Warning:  include_once(../dbh.php): Failed to open stream: No such file or directory in /home2/daydonec/public_html/darkcode/msg.inc.php on line 4
+[31-Aug-2022 21:52:36 UTC] PHP Warning:  include_once(): Failed opening '../dbh.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home2/daydonec/public_html/darkcode/msg.inc.php on line 4
+[31-Aug-2022 21:52:36 UTC] PHP Warning:  Undefined variable $conn in /home2/daydonec/public_html/darkcode/msg.inc.php on line 6
+[31-Aug-2022 21:52:36 UTC] PHP Warning:  Undefined array key "Name" in /home2/daydonec/public_html/darkcode/msg.inc.php on line 6
+[31-Aug-2022 21:52:36 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_real_escape_string(): Argument #1 ($mysql) must be of type mysqli, null given in /home2/daydonec/public_html/darkcode/msg.inc.php:6
+Stack trace:
+#0 /home2/daydonec/public_html/darkcode/msg.inc.php(6): mysqli_real_escape_string()
+#1 {main}
+  thrown in /home2/daydonec/public_html/darkcode/msg.inc.php on line 6
+[01-Sep-2022 08:09:33 UTC] PHP Warning:  Undefined array key "user_id" in /home2/daydonec/public_html/darkcode/update.php on line 5
+[03-Sep-2022 03:23:58 UTC] PHP Warning:  Attempt to read property "status" on array in /home2/daydonec/public_html/darkcode/paystack.ini.php on line 34
+[11-Sep-2022 11:03:36 UTC] PHP Warning:  Attempt to read property "status" on array in /home2/daydonec/public_html/darkcode/paystack.ini - Copy.php on line 34
+[12-Sep-2022 06:05:34 UTC] PHP Warning:  Attempt to read property "status" on array in /home2/daydonec/public_html/darkcode/paystack.ini - Copy.php on line 34
+[13-Sep-2022 22:31:28 UTC] PHP Warning:  Attempt to read property "status" on array in /home2/daydonec/public_html/darkcode/paystack.ini.php on line 34
+[13-Sep-2022 23:50:33 UTC] PHP Warning:  Undefined array key "email" in /home2/daydonec/public_html/darkcode/wish.inc.php on line 6
+[13-Sep-2022 23:50:33 UTC] PHP Warning:  Undefined array key "phone" in /home2/daydonec/public_html/darkcode/wish.inc.php on line 6
+[13-Sep-2022 23:50:33 UTC] PHP Warning:  Undefined array key "p_name" in /home2/daydonec/public_html/darkcode/wish.inc.php on line 6
+[13-Sep-2022 23:50:33 UTC] PHP Warning:  Undefined array key "email" in /home2/daydonec/public_html/darkcode/wish.inc.php on line 7
+[13-Sep-2022 23:50:33 UTC] PHP Warning:  Undefined array key "phone" in /home2/daydonec/public_html/darkcode/wish.inc.php on line 8
+[13-Sep-2022 23:50:33 UTC] PHP Warning:  Undefined array key "p_name" in /home2/daydonec/public_html/darkcode/wish.inc.php on line 9
+[13-Sep-2022 23:50:33 UTC] PHP Warning:  Undefined array key "region" in /home2/daydonec/public_html/darkcode/wish.inc.php on line 10
+[14-Sep-2022 00:39:36 UTC] PHP Warning:  include_once(../dbh.php): Failed to open stream: No such file or directory in /home2/daydonec/public_html/darkcode/pay.inc.php on line 4
+[14-Sep-2022 00:39:36 UTC] PHP Warning:  include_once(): Failed opening '../dbh.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home2/daydonec/public_html/darkcode/pay.inc.php on line 4
+[14-Sep-2022 00:39:36 UTC] PHP Warning:  Undefined variable $conn in /home2/daydonec/public_html/darkcode/pay.inc.php on line 6
+[14-Sep-2022 00:39:36 UTC] PHP Warning:  Undefined array key "amount" in /home2/daydonec/public_html/darkcode/pay.inc.php on line 6
+[14-Sep-2022 00:39:36 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_real_escape_string(): Argument #1 ($mysql) must be of type mysqli, null given in /home2/daydonec/public_html/darkcode/pay.inc.php:6
+Stack trace:
+#0 /home2/daydonec/public_html/darkcode/pay.inc.php(6): mysqli_real_escape_string()
+#1 {main}
+  thrown in /home2/daydonec/public_html/darkcode/pay.inc.php on line 6
+[21-Sep-2022 11:16:03 UTC] PHP Warning:  include_once(../dbh.php): Failed to open stream: No such file or directory in /home2/daydonec/public_html/darkcode/pay.inc.php on line 4
+[21-Sep-2022 11:16:03 UTC] PHP Warning:  include_once(): Failed opening '../dbh.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home2/daydonec/public_html/darkcode/pay.inc.php on line 4
+[21-Sep-2022 11:16:03 UTC] PHP Warning:  Undefined variable $conn in /home2/daydonec/public_html/darkcode/pay.inc.php on line 6
+[21-Sep-2022 11:16:03 UTC] PHP Warning:  Undefined array key "amount" in /home2/daydonec/public_html/darkcode/pay.inc.php on line 6
+[21-Sep-2022 11:16:03 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_real_escape_string(): Argument #1 ($mysql) must be of type mysqli, null given in /home2/daydonec/public_html/darkcode/pay.inc.php:6
+Stack trace:
+#0 /home2/daydonec/public_html/darkcode/pay.inc.php(6): mysqli_real_escape_string()
+#1 {main}
+  thrown in /home2/daydonec/public_html/darkcode/pay.inc.php on line 6
+[21-Sep-2022 14:09:34 UTC] PHP Warning:  Attempt to read property "status" on array in /home2/daydonec/public_html/darkcode/paystack.ini.php on line 34
+[24-Sep-2022 14:19:27 UTC] PHP Warning:  include_once(../dbh.php): Failed to open stream: No such file or directory in /home2/daydonec/public_html/darkcode/msg.inc.php on line 4
+[24-Sep-2022 14:19:27 UTC] PHP Warning:  include_once(): Failed opening '../dbh.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home2/daydonec/public_html/darkcode/msg.inc.php on line 4
+[24-Sep-2022 14:19:27 UTC] PHP Warning:  Undefined variable $conn in /home2/daydonec/public_html/darkcode/msg.inc.php on line 6
+[24-Sep-2022 14:19:27 UTC] PHP Warning:  Undefined array key "Name" in /home2/daydonec/public_html/darkcode/msg.inc.php on line 6
+[24-Sep-2022 14:19:27 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_real_escape_string(): Argument #1 ($mysql) must be of type mysqli, null given in /home2/daydonec/public_html/darkcode/msg.inc.php:6
+Stack trace:
+#0 /home2/daydonec/public_html/darkcode/msg.inc.php(6): mysqli_real_escape_string()
+#1 {main}
+  thrown in /home2/daydonec/public_html/darkcode/msg.inc.php on line 6
+[25-Sep-2022 12:45:54 UTC] PHP Warning:  Undefined array key "user_id" in /home2/daydonec/public_html/darkcode/update.php on line 5
+[29-Sep-2022 17:31:37 UTC] PHP Warning:  include_once(../dbh.php): Failed to open stream: No such file or directory in /home2/daydonec/public_html/darkcode/pay.inc.php on line 4
+[29-Sep-2022 17:31:37 UTC] PHP Warning:  include_once(): Failed opening '../dbh.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home2/daydonec/public_html/darkcode/pay.inc.php on line 4
+[29-Sep-2022 17:31:37 UTC] PHP Warning:  Undefined variable $conn in /home2/daydonec/public_html/darkcode/pay.inc.php on line 6
+[29-Sep-2022 17:31:37 UTC] PHP Warning:  Undefined array key "amount" in /home2/daydonec/public_html/darkcode/pay.inc.php on line 6
+[29-Sep-2022 17:31:37 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_real_escape_string(): Argument #1 ($mysql) must be of type mysqli, null given in /home2/daydonec/public_html/darkcode/pay.inc.php:6
+Stack trace:
+#0 /home2/daydonec/public_html/darkcode/pay.inc.php(6): mysqli_real_escape_string()
+#1 {main}
+  thrown in /home2/daydonec/public_html/darkcode/pay.inc.php on line 6
+[30-Sep-2022 22:10:55 UTC] PHP Warning:  include_once(../dbh.php): Failed to open stream: No such file or directory in /home2/daydonec/public_html/darkcode/signup.inc.php on line 4
+[30-Sep-2022 22:10:55 UTC] PHP Warning:  include_once(): Failed opening '../dbh.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home2/daydonec/public_html/darkcode/signup.inc.php on line 4
+[30-Sep-2022 22:10:55 UTC] PHP Warning:  Undefined variable $conn in /home2/daydonec/public_html/darkcode/signup.inc.php on line 6
+[30-Sep-2022 22:10:55 UTC] PHP Warning:  Undefined array key "username" in /home2/daydonec/public_html/darkcode/signup.inc.php on line 6
+[30-Sep-2022 22:10:55 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_real_escape_string(): Argument #1 ($mysql) must be of type mysqli, null given in /home2/daydonec/public_html/darkcode/signup.inc.php:6
+Stack trace:
+#0 /home2/daydonec/public_html/darkcode/signup.inc.php(6): mysqli_real_escape_string()
+#1 {main}
+  thrown in /home2/daydonec/public_html/darkcode/signup.inc.php on line 6
+[01-Oct-2022 03:37:16 UTC] PHP Warning:  Attempt to read property "status" on array in /home2/daydonec/public_html/darkcode/paystack.ini - Copy.php on line 34
+[02-Oct-2022 09:12:28 UTC] PHP Warning:  include(inc/header.php): Failed to open stream: No such file or directory in /home2/daydonec/public_html/darkcode/payondelivery.php on line 2
+[02-Oct-2022 09:12:28 UTC] PHP Warning:  include(): Failed opening 'inc/header.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home2/daydonec/public_html/darkcode/payondelivery.php on line 2
+[02-Oct-2022 09:12:28 UTC] PHP Warning:  include(inc/footer.php): Failed to open stream: No such file or directory in /home2/daydonec/public_html/darkcode/payondelivery.php on line 48
+[02-Oct-2022 09:12:28 UTC] PHP Warning:  include(): Failed opening 'inc/footer.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home2/daydonec/public_html/darkcode/payondelivery.php on line 48
+[04-Oct-2022 21:07:32 UTC] PHP Warning:  Attempt to read property "status" on array in /home2/daydonec/public_html/darkcode/paystack.ini.php on line 34
+[11-Oct-2022 08:49:31 UTC] PHP Warning:  include(inc/header.php): Failed to open stream: No such file or directory in /home2/daydonec/public_html/darkcode/payondelivery.php on line 2
+[11-Oct-2022 08:49:31 UTC] PHP Warning:  include(): Failed opening 'inc/header.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home2/daydonec/public_html/darkcode/payondelivery.php on line 2
+[11-Oct-2022 08:49:31 UTC] PHP Warning:  include(inc/footer.php): Failed to open stream: No such file or directory in /home2/daydonec/public_html/darkcode/payondelivery.php on line 48
+[11-Oct-2022 08:49:31 UTC] PHP Warning:  include(): Failed opening 'inc/footer.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home2/daydonec/public_html/darkcode/payondelivery.php on line 48
+[12-Oct-2022 06:01:15 UTC] PHP Warning:  Attempt to read property "status" on array in /home2/daydonec/public_html/darkcode/paystack.ini - Copy.php on line 34
+[15-Oct-2022 02:23:44 UTC] PHP Warning:  Attempt to read property "status" on array in /home2/daydonec/public_html/darkcode/paystack.ini - Copy.php on line 34
+[15-Oct-2022 02:24:28 UTC] PHP Warning:  Attempt to read property "status" on array in /home2/daydonec/public_html/darkcode/paystack.ini.php on line 34
+[15-Oct-2022 02:24:29 UTC] PHP Warning:  Undefined array key "email" in /home2/daydonec/public_html/darkcode/wish.inc.php on line 6
+[15-Oct-2022 02:24:29 UTC] PHP Warning:  Undefined array key "phone" in /home2/daydonec/public_html/darkcode/wish.inc.php on line 6
+[15-Oct-2022 02:24:29 UTC] PHP Warning:  Undefined array key "p_name" in /home2/daydonec/public_html/darkcode/wish.inc.php on line 6
+[15-Oct-2022 02:24:29 UTC] PHP Warning:  Undefined array key "email" in /home2/daydonec/public_html/darkcode/wish.inc.php on line 7
+[15-Oct-2022 02:24:29 UTC] PHP Warning:  Undefined array key "phone" in /home2/daydonec/public_html/darkcode/wish.inc.php on line 8
+[15-Oct-2022 02:24:29 UTC] PHP Warning:  Undefined array key "p_name" in /home2/daydonec/public_html/darkcode/wish.inc.php on line 9
+[15-Oct-2022 02:24:29 UTC] PHP Warning:  Undefined array key "region" in /home2/daydonec/public_html/darkcode/wish.inc.php on line 10
+[15-Oct-2022 02:24:30 UTC] PHP Warning:  include_once(../dbh.php): Failed to open stream: No such file or directory in /home2/daydonec/public_html/darkcode/pay.inc.php on line 4
+[15-Oct-2022 02:24:30 UTC] PHP Warning:  include_once(): Failed opening '../dbh.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home2/daydonec/public_html/darkcode/pay.inc.php on line 4
+[15-Oct-2022 02:24:30 UTC] PHP Warning:  Undefined variable $conn in /home2/daydonec/public_html/darkcode/pay.inc.php on line 6
+[15-Oct-2022 02:24:30 UTC] PHP Warning:  Undefined array key "amount" in /home2/daydonec/public_html/darkcode/pay.inc.php on line 6
+[15-Oct-2022 02:24:30 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_real_escape_string(): Argument #1 ($mysql) must be of type mysqli, null given in /home2/daydonec/public_html/darkcode/pay.inc.php:6
+Stack trace:
+#0 /home2/daydonec/public_html/darkcode/pay.inc.php(6): mysqli_real_escape_string()
+#1 {main}
+  thrown in /home2/daydonec/public_html/darkcode/pay.inc.php on line 6
+[26-Oct-2022 14:05:19 UTC] PHP Warning:  Attempt to read property "status" on array in /home2/daydonec/public_html/darkcode/paystack.ini.php on line 34
+[27-Oct-2022 14:54:30 UTC] PHP Warning:  include_once(../dbh.php): Failed to open stream: No such file or directory in /home2/daydonec/public_html/darkcode/msg.inc.php on line 4
+[27-Oct-2022 14:54:30 UTC] PHP Warning:  include_once(): Failed opening '../dbh.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home2/daydonec/public_html/darkcode/msg.inc.php on line 4
+[27-Oct-2022 14:54:30 UTC] PHP Warning:  Undefined variable $conn in /home2/daydonec/public_html/darkcode/msg.inc.php on line 6
+[27-Oct-2022 14:54:30 UTC] PHP Warning:  Undefined array key "Name" in /home2/daydonec/public_html/darkcode/msg.inc.php on line 6
+[27-Oct-2022 14:54:30 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_real_escape_string(): Argument #1 ($mysql) must be of type mysqli, null given in /home2/daydonec/public_html/darkcode/msg.inc.php:6
+Stack trace:
+#0 /home2/daydonec/public_html/darkcode/msg.inc.php(6): mysqli_real_escape_string()
+#1 {main}
+  thrown in /home2/daydonec/public_html/darkcode/msg.inc.php on line 6
+[02-Nov-2022 13:08:01 UTC] PHP Warning:  Undefined array key "email" in /home2/daydonec/public_html/darkcode/wish.inc.php on line 6
+[02-Nov-2022 13:08:01 UTC] PHP Warning:  Undefined array key "phone" in /home2/daydonec/public_html/darkcode/wish.inc.php on line 6
+[02-Nov-2022 13:08:01 UTC] PHP Warning:  Undefined array key "p_name" in /home2/daydonec/public_html/darkcode/wish.inc.php on line 6
+[02-Nov-2022 13:08:01 UTC] PHP Warning:  Undefined array key "email" in /home2/daydonec/public_html/darkcode/wish.inc.php on line 7
+[02-Nov-2022 13:08:01 UTC] PHP Warning:  Undefined array key "phone" in /home2/daydonec/public_html/darkcode/wish.inc.php on line 8
+[02-Nov-2022 13:08:01 UTC] PHP Warning:  Undefined array key "p_name" in /home2/daydonec/public_html/darkcode/wish.inc.php on line 9
+[02-Nov-2022 13:08:01 UTC] PHP Warning:  Undefined array key "region" in /home2/daydonec/public_html/darkcode/wish.inc.php on line 10
+[02-Nov-2022 13:49:32 UTC] PHP Warning:  Attempt to read property "status" on array in /home2/daydonec/public_html/darkcode/paystack.ini.php on line 34
+[11-Nov-2022 06:48:00 UTC] PHP Warning:  Attempt to read property "status" on array in /home2/daydonec/public_html/darkcode/paystack.ini.php on line 34
+[11-Nov-2022 06:50:07 UTC] PHP Warning:  Attempt to read property "status" on array in /home2/daydonec/public_html/darkcode/paystack.ini - Copy.php on line 34
+[12-Nov-2022 14:41:40 UTC] PHP Warning:  include_once(../dbh.php): Failed to open stream: No such file or directory in /home2/daydonec/public_html/darkcode/signup.inc.php on line 4
+[12-Nov-2022 14:41:40 UTC] PHP Warning:  include_once(): Failed opening '../dbh.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home2/daydonec/public_html/darkcode/signup.inc.php on line 4
+[12-Nov-2022 14:41:40 UTC] PHP Warning:  Undefined variable $conn in /home2/daydonec/public_html/darkcode/signup.inc.php on line 6
+[12-Nov-2022 14:41:40 UTC] PHP Warning:  Undefined array key "username" in /home2/daydonec/public_html/darkcode/signup.inc.php on line 6
+[12-Nov-2022 14:41:40 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_real_escape_string(): Argument #1 ($mysql) must be of type mysqli, null given in /home2/daydonec/public_html/darkcode/signup.inc.php:6
+Stack trace:
+#0 /home2/daydonec/public_html/darkcode/signup.inc.php(6): mysqli_real_escape_string()
+#1 {main}
+  thrown in /home2/daydonec/public_html/darkcode/signup.inc.php on line 6
+[12-Nov-2022 14:41:55 UTC] PHP Warning:  Attempt to read property "status" on array in /home2/daydonec/public_html/darkcode/paystack.ini - Copy.php on line 34
+[14-Nov-2022 01:36:05 UTC] PHP Warning:  Attempt to read property "status" on array in /home2/daydonec/public_html/darkcode/paystack.ini - Copy.php on line 34
+[14-Nov-2022 01:53:01 UTC] PHP Warning:  Attempt to read property "status" on array in /home2/daydonec/public_html/darkcode/paystack.ini.php on line 34
+[14-Nov-2022 02:12:50 UTC] PHP Warning:  Undefined array key "email" in /home2/daydonec/public_html/darkcode/wish.inc.php on line 6
+[14-Nov-2022 02:12:50 UTC] PHP Warning:  Undefined array key "phone" in /home2/daydonec/public_html/darkcode/wish.inc.php on line 6
+[14-Nov-2022 02:12:50 UTC] PHP Warning:  Undefined array key "p_name" in /home2/daydonec/public_html/darkcode/wish.inc.php on line 6
+[14-Nov-2022 02:12:50 UTC] PHP Warning:  Undefined array key "email" in /home2/daydonec/public_html/darkcode/wish.inc.php on line 7
+[14-Nov-2022 02:12:50 UTC] PHP Warning:  Undefined array key "phone" in /home2/daydonec/public_html/darkcode/wish.inc.php on line 8
+[14-Nov-2022 02:12:50 UTC] PHP Warning:  Undefined array key "p_name" in /home2/daydonec/public_html/darkcode/wish.inc.php on line 9
+[14-Nov-2022 02:12:50 UTC] PHP Warning:  Undefined array key "region" in /home2/daydonec/public_html/darkcode/wish.inc.php on line 10
+[14-Nov-2022 02:16:02 UTC] PHP Warning:  include_once(../dbh.php): Failed to open stream: No such file or directory in /home2/daydonec/public_html/darkcode/pay.inc.php on line 4
+[14-Nov-2022 02:16:02 UTC] PHP Warning:  include_once(): Failed opening '../dbh.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home2/daydonec/public_html/darkcode/pay.inc.php on line 4
+[14-Nov-2022 02:16:02 UTC] PHP Warning:  Undefined variable $conn in /home2/daydonec/public_html/darkcode/pay.inc.php on line 6
+[14-Nov-2022 02:16:02 UTC] PHP Warning:  Undefined array key "amount" in /home2/daydonec/public_html/darkcode/pay.inc.php on line 6
+[14-Nov-2022 02:16:02 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_real_escape_string(): Argument #1 ($mysql) must be of type mysqli, null given in /home2/daydonec/public_html/darkcode/pay.inc.php:6
+Stack trace:
+#0 /home2/daydonec/public_html/darkcode/pay.inc.php(6): mysqli_real_escape_string()
+#1 {main}
+  thrown in /home2/daydonec/public_html/darkcode/pay.inc.php on line 6
+[15-Nov-2022 06:08:04 UTC] PHP Warning:  Attempt to read property "status" on array in /home2/daydonec/public_html/darkcode/paystack.ini - Copy.php on line 34
+[15-Nov-2022 06:08:06 UTC] PHP Warning:  include_once(../dbh.php): Failed to open stream: No such file or directory in /home2/daydonec/public_html/darkcode/signup.inc.php on line 4
+[15-Nov-2022 06:08:06 UTC] PHP Warning:  include_once(): Failed opening '../dbh.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home2/daydonec/public_html/darkcode/signup.inc.php on line 4
+[15-Nov-2022 06:08:06 UTC] PHP Warning:  Undefined variable $conn in /home2/daydonec/public_html/darkcode/signup.inc.php on line 6
+[15-Nov-2022 06:08:06 UTC] PHP Warning:  Undefined array key "username" in /home2/daydonec/public_html/darkcode/signup.inc.php on line 6
+[15-Nov-2022 06:08:06 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_real_escape_string(): Argument #1 ($mysql) must be of type mysqli, null given in /home2/daydonec/public_html/darkcode/signup.inc.php:6
+Stack trace:
+#0 /home2/daydonec/public_html/darkcode/signup.inc.php(6): mysqli_real_escape_string()
+#1 {main}
+  thrown in /home2/daydonec/public_html/darkcode/signup.inc.php on line 6
+[17-Nov-2022 03:11:49 UTC] PHP Warning:  Attempt to read property "status" on array in /home2/daydonec/public_html/darkcode/paystack.ini.php on line 34
+[17-Nov-2022 17:46:05 UTC] PHP Warning:  include(inc/header.php): Failed to open stream: No such file or directory in /home2/daydonec/public_html/darkcode/payondelivery.php on line 2
+[17-Nov-2022 17:46:05 UTC] PHP Warning:  include(): Failed opening 'inc/header.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home2/daydonec/public_html/darkcode/payondelivery.php on line 2
+[17-Nov-2022 17:46:05 UTC] PHP Warning:  include(inc/footer.php): Failed to open stream: No such file or directory in /home2/daydonec/public_html/darkcode/payondelivery.php on line 48
+[17-Nov-2022 17:46:05 UTC] PHP Warning:  include(): Failed opening 'inc/footer.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home2/daydonec/public_html/darkcode/payondelivery.php on line 48
+[18-Nov-2022 06:13:11 UTC] PHP Warning:  Attempt to read property "status" on array in /home2/daydonec/public_html/darkcode/paystack.ini - Copy.php on line 34
+[18-Nov-2022 06:13:12 UTC] PHP Warning:  Undefined array key "user_id" in /home2/daydonec/public_html/darkcode/update.php on line 5
+[18-Nov-2022 06:13:13 UTC] PHP Warning:  include_once(../dbh.php): Failed to open stream: No such file or directory in /home2/daydonec/public_html/darkcode/msg.inc.php on line 4
+[18-Nov-2022 06:13:13 UTC] PHP Warning:  include_once(): Failed opening '../dbh.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home2/daydonec/public_html/darkcode/msg.inc.php on line 4
+[18-Nov-2022 06:13:13 UTC] PHP Warning:  Undefined variable $conn in /home2/daydonec/public_html/darkcode/msg.inc.php on line 6
+[18-Nov-2022 06:13:13 UTC] PHP Warning:  Undefined array key "Name" in /home2/daydonec/public_html/darkcode/msg.inc.php on line 6
+[18-Nov-2022 06:13:13 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_real_escape_string(): Argument #1 ($mysql) must be of type mysqli, null given in /home2/daydonec/public_html/darkcode/msg.inc.php:6
+Stack trace:
+#0 /home2/daydonec/public_html/darkcode/msg.inc.php(6): mysqli_real_escape_string()
+#1 {main}
+  thrown in /home2/daydonec/public_html/darkcode/msg.inc.php on line 6
+[19-Nov-2022 14:00:35 UTC] PHP Warning:  Attempt to read property "status" on array in /home2/daydonec/public_html/darkcode/paystack.ini.php on line 34
+[20-Nov-2022 16:33:46 UTC] PHP Warning:  Attempt to read property "status" on array in /home2/daydonec/public_html/darkcode/paystack.ini.php on line 34
+[20-Nov-2022 21:27:46 UTC] PHP Warning:  Attempt to read property "status" on array in /home2/daydonec/public_html/darkcode/paystack.ini - Copy.php on line 34
+[20-Nov-2022 21:27:50 UTC] PHP Warning:  Undefined array key "user_id" in /home2/daydonec/public_html/darkcode/update.php on line 5
+[20-Nov-2022 21:27:51 UTC] PHP Warning:  include_once(../dbh.php): Failed to open stream: No such file or directory in /home2/daydonec/public_html/darkcode/msg.inc.php on line 4
+[20-Nov-2022 21:27:51 UTC] PHP Warning:  include_once(): Failed opening '../dbh.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home2/daydonec/public_html/darkcode/msg.inc.php on line 4
+[20-Nov-2022 21:27:51 UTC] PHP Warning:  Undefined variable $conn in /home2/daydonec/public_html/darkcode/msg.inc.php on line 6
+[20-Nov-2022 21:27:51 UTC] PHP Warning:  Undefined array key "Name" in /home2/daydonec/public_html/darkcode/msg.inc.php on line 6
+[20-Nov-2022 21:27:51 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_real_escape_string(): Argument #1 ($mysql) must be of type mysqli, null given in /home2/daydonec/public_html/darkcode/msg.inc.php:6
+Stack trace:
+#0 /home2/daydonec/public_html/darkcode/msg.inc.php(6): mysqli_real_escape_string()
+#1 {main}
+  thrown in /home2/daydonec/public_html/darkcode/msg.inc.php on line 6
+[21-Nov-2022 17:29:00 UTC] PHP Warning:  Attempt to read property "status" on array in /home2/daydonec/public_html/darkcode/paystack.ini.php on line 34
+[27-Nov-2022 04:51:50 UTC] PHP Warning:  include_once(../dbh.php): Failed to open stream: No such file or directory in /home2/daydonec/public_html/darkcode/signup.inc.php on line 4
+[27-Nov-2022 04:51:50 UTC] PHP Warning:  include_once(): Failed opening '../dbh.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home2/daydonec/public_html/darkcode/signup.inc.php on line 4
+[27-Nov-2022 04:51:50 UTC] PHP Warning:  Undefined variable $conn in /home2/daydonec/public_html/darkcode/signup.inc.php on line 6
+[27-Nov-2022 04:51:50 UTC] PHP Warning:  Undefined array key "username" in /home2/daydonec/public_html/darkcode/signup.inc.php on line 6
+[27-Nov-2022 04:51:50 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_real_escape_string(): Argument #1 ($mysql) must be of type mysqli, null given in /home2/daydonec/public_html/darkcode/signup.inc.php:6
+Stack trace:
+#0 /home2/daydonec/public_html/darkcode/signup.inc.php(6): mysqli_real_escape_string()
+#1 {main}
+  thrown in /home2/daydonec/public_html/darkcode/signup.inc.php on line 6
+[27-Nov-2022 04:51:55 UTC] PHP Warning:  Attempt to read property "status" on array in /home2/daydonec/public_html/darkcode/paystack.ini - Copy.php on line 34
+[28-Nov-2022 08:56:29 UTC] PHP Warning:  include(inc/header.php): Failed to open stream: No such file or directory in /home2/daydonec/public_html/darkcode/payondelivery.php on line 2
+[28-Nov-2022 08:56:29 UTC] PHP Warning:  include(): Failed opening 'inc/header.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home2/daydonec/public_html/darkcode/payondelivery.php on line 2
+[28-Nov-2022 08:56:29 UTC] PHP Warning:  include(inc/footer.php): Failed to open stream: No such file or directory in /home2/daydonec/public_html/darkcode/payondelivery.php on line 48
+[28-Nov-2022 08:56:29 UTC] PHP Warning:  include(): Failed opening 'inc/footer.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home2/daydonec/public_html/darkcode/payondelivery.php on line 48
+[30-Nov-2022 02:14:17 UTC] PHP Warning:  include_once(../dbh.php): Failed to open stream: No such file or directory in /home2/daydonec/public_html/darkcode/signup.inc.php on line 4
+[30-Nov-2022 02:14:17 UTC] PHP Warning:  include_once(): Failed opening '../dbh.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home2/daydonec/public_html/darkcode/signup.inc.php on line 4
+[30-Nov-2022 02:14:17 UTC] PHP Warning:  Undefined variable $conn in /home2/daydonec/public_html/darkcode/signup.inc.php on line 6
+[30-Nov-2022 02:14:17 UTC] PHP Warning:  Undefined array key "username" in /home2/daydonec/public_html/darkcode/signup.inc.php on line 6
+[30-Nov-2022 02:14:17 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_real_escape_string(): Argument #1 ($mysql) must be of type mysqli, null given in /home2/daydonec/public_html/darkcode/signup.inc.php:6
+Stack trace:
+#0 /home2/daydonec/public_html/darkcode/signup.inc.php(6): mysqli_real_escape_string()
+#1 {main}
+  thrown in /home2/daydonec/public_html/darkcode/signup.inc.php on line 6
+[30-Nov-2022 02:14:30 UTC] PHP Warning:  Attempt to read property "status" on array in /home2/daydonec/public_html/darkcode/paystack.ini - Copy.php on line 34
+[30-Nov-2022 15:45:46 UTC] PHP Warning:  include(inc/header.php): Failed to open stream: No such file or directory in /home2/daydonec/public_html/darkcode/payondelivery.php on line 2
+[30-Nov-2022 15:45:46 UTC] PHP Warning:  include(): Failed opening 'inc/header.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home2/daydonec/public_html/darkcode/payondelivery.php on line 2
+[30-Nov-2022 15:45:46 UTC] PHP Warning:  include(inc/footer.php): Failed to open stream: No such file or directory in /home2/daydonec/public_html/darkcode/payondelivery.php on line 48
+[30-Nov-2022 15:45:46 UTC] PHP Warning:  include(): Failed opening 'inc/footer.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home2/daydonec/public_html/darkcode/payondelivery.php on line 48
+[01-Dec-2022 16:50:06 UTC] PHP Warning:  include_once(../dbh.php): Failed to open stream: No such file or directory in /home2/daydonec/public_html/darkcode/signup.inc.php on line 4
+[01-Dec-2022 16:50:06 UTC] PHP Warning:  include_once(): Failed opening '../dbh.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home2/daydonec/public_html/darkcode/signup.inc.php on line 4
+[01-Dec-2022 16:50:06 UTC] PHP Warning:  Undefined variable $conn in /home2/daydonec/public_html/darkcode/signup.inc.php on line 6
+[01-Dec-2022 16:50:06 UTC] PHP Warning:  Undefined array key "username" in /home2/daydonec/public_html/darkcode/signup.inc.php on line 6
+[01-Dec-2022 16:50:06 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_real_escape_string(): Argument #1 ($mysql) must be of type mysqli, null given in /home2/daydonec/public_html/darkcode/signup.inc.php:6
+Stack trace:
+#0 /home2/daydonec/public_html/darkcode/signup.inc.php(6): mysqli_real_escape_string()
+#1 {main}
+  thrown in /home2/daydonec/public_html/darkcode/signup.inc.php on line 6
+[01-Dec-2022 16:50:11 UTC] PHP Warning:  Attempt to read property "status" on array in /home2/daydonec/public_html/darkcode/paystack.ini - Copy.php on line 34
+[02-Dec-2022 12:00:42 UTC] PHP Warning:  include(inc/header.php): Failed to open stream: No such file or directory in /home2/daydonec/public_html/darkcode/payondelivery.php on line 2
+[02-Dec-2022 12:00:42 UTC] PHP Warning:  include(): Failed opening 'inc/header.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home2/daydonec/public_html/darkcode/payondelivery.php on line 2
+[02-Dec-2022 12:00:42 UTC] PHP Warning:  include(inc/footer.php): Failed to open stream: No such file or directory in /home2/daydonec/public_html/darkcode/payondelivery.php on line 48
+[02-Dec-2022 12:00:42 UTC] PHP Warning:  include(): Failed opening 'inc/footer.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home2/daydonec/public_html/darkcode/payondelivery.php on line 48
+[02-Dec-2022 12:25:05 UTC] PHP Warning:  Undefined array key "email" in /home2/daydonec/public_html/darkcode/wish.inc.php on line 6
+[02-Dec-2022 12:25:05 UTC] PHP Warning:  Undefined array key "phone" in /home2/daydonec/public_html/darkcode/wish.inc.php on line 6
+[02-Dec-2022 12:25:05 UTC] PHP Warning:  Undefined array key "p_name" in /home2/daydonec/public_html/darkcode/wish.inc.php on line 6
+[02-Dec-2022 12:25:05 UTC] PHP Warning:  Undefined array key "email" in /home2/daydonec/public_html/darkcode/wish.inc.php on line 7
+[02-Dec-2022 12:25:05 UTC] PHP Warning:  Undefined array key "phone" in /home2/daydonec/public_html/darkcode/wish.inc.php on line 8
+[02-Dec-2022 12:25:05 UTC] PHP Warning:  Undefined array key "p_name" in /home2/daydonec/public_html/darkcode/wish.inc.php on line 9
+[02-Dec-2022 12:25:05 UTC] PHP Warning:  Undefined array key "region" in /home2/daydonec/public_html/darkcode/wish.inc.php on line 10
+[02-Dec-2022 12:25:06 UTC] PHP Warning:  Undefined array key "email" in /home2/daydonec/public_html/darkcode/wish.inc.php on line 6
+[02-Dec-2022 12:25:06 UTC] PHP Warning:  Undefined array key "phone" in /home2/daydonec/public_html/darkcode/wish.inc.php on line 6
+[02-Dec-2022 12:25:06 UTC] PHP Warning:  Undefined array key "p_name" in /home2/daydonec/public_html/darkcode/wish.inc.php on line 6
+[02-Dec-2022 12:25:06 UTC] PHP Warning:  Undefined array key "email" in /home2/daydonec/public_html/darkcode/wish.inc.php on line 7
+[02-Dec-2022 12:25:06 UTC] PHP Warning:  Undefined array key "phone" in /home2/daydonec/public_html/darkcode/wish.inc.php on line 8
+[02-Dec-2022 12:25:06 UTC] PHP Warning:  Undefined array key "p_name" in /home2/daydonec/public_html/darkcode/wish.inc.php on line 9
+[02-Dec-2022 12:25:06 UTC] PHP Warning:  Undefined array key "region" in /home2/daydonec/public_html/darkcode/wish.inc.php on line 10
+[02-Dec-2022 12:25:10 UTC] PHP Warning:  Undefined array key "email" in /home2/daydonec/public_html/darkcode/wish.inc.php on line 6
+[02-Dec-2022 12:25:10 UTC] PHP Warning:  Undefined array key "email" in /home2/daydonec/public_html/darkcode/wish.inc.php on line 6
+[02-Dec-2022 12:25:10 UTC] PHP Warning:  Undefined array key "phone" in /home2/daydonec/public_html/darkcode/wish.inc.php on line 6
+[02-Dec-2022 12:25:10 UTC] PHP Warning:  Undefined array key "phone" in /home2/daydonec/public_html/darkcode/wish.inc.php on line 6
+[02-Dec-2022 12:25:10 UTC] PHP Warning:  Undefined array key "p_name" in /home2/daydonec/public_html/darkcode/wish.inc.php on line 6
+[02-Dec-2022 12:25:10 UTC] PHP Warning:  Undefined array key "p_name" in /home2/daydonec/public_html/darkcode/wish.inc.php on line 6
+[02-Dec-2022 12:25:10 UTC] PHP Warning:  Undefined array key "email" in /home2/daydonec/public_html/darkcode/wish.inc.php on line 7
+[02-Dec-2022 12:25:10 UTC] PHP Warning:  Undefined array key "email" in /home2/daydonec/public_html/darkcode/wish.inc.php on line 7
+[02-Dec-2022 12:25:10 UTC] PHP Warning:  Undefined array key "phone" in /home2/daydonec/public_html/darkcode/wish.inc.php on line 8
+[02-Dec-2022 12:25:10 UTC] PHP Warning:  Undefined array key "phone" in /home2/daydonec/public_html/darkcode/wish.inc.php on line 8
+[02-Dec-2022 12:25:10 UTC] PHP Warning:  Undefined array key "p_name" in /home2/daydonec/public_html/darkcode/wish.inc.php on line 9
+[02-Dec-2022 12:25:10 UTC] PHP Warning:  Undefined array key "p_name" in /home2/daydonec/public_html/darkcode/wish.inc.php on line 9
+[02-Dec-2022 12:25:10 UTC] PHP Warning:  Undefined array key "region" in /home2/daydonec/public_html/darkcode/wish.inc.php on line 10
+[02-Dec-2022 12:25:10 UTC] PHP Warning:  Undefined array key "region" in /home2/daydonec/public_html/darkcode/wish.inc.php on line 10
+[02-Dec-2022 12:25:11 UTC] PHP Warning:  include_once(../dbh.php): Failed to open stream: No such file or directory in /home2/daydonec/public_html/darkcode/signup.inc.php on line 4
+[02-Dec-2022 12:25:11 UTC] PHP Warning:  include_once(../dbh.php): Failed to open stream: No such file or directory in /home2/daydonec/public_html/darkcode/signup.inc.php on line 4
+[02-Dec-2022 12:25:11 UTC] PHP Warning:  include_once(): Failed opening '../dbh.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home2/daydonec/public_html/darkcode/signup.inc.php on line 4
+[02-Dec-2022 12:25:11 UTC] PHP Warning:  include_once(): Failed opening '../dbh.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home2/daydonec/public_html/darkcode/signup.inc.php on line 4
+[02-Dec-2022 12:25:11 UTC] PHP Warning:  Undefined variable $conn in /home2/daydonec/public_html/darkcode/signup.inc.php on line 6
+[02-Dec-2022 12:25:11 UTC] PHP Warning:  Undefined variable $conn in /home2/daydonec/public_html/darkcode/signup.inc.php on line 6
+[02-Dec-2022 12:25:11 UTC] PHP Warning:  Undefined array key "username" in /home2/daydonec/public_html/darkcode/signup.inc.php on line 6
+[02-Dec-2022 12:25:11 UTC] PHP Warning:  Undefined array key "username" in /home2/daydonec/public_html/darkcode/signup.inc.php on line 6
+[02-Dec-2022 12:25:11 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_real_escape_string(): Argument #1 ($mysql) must be of type mysqli, null given in /home2/daydonec/public_html/darkcode/signup.inc.php:6
+Stack trace:
+#0 /home2/daydonec/public_html/darkcode/signup.inc.php(6): mysqli_real_escape_string()
+#1 {main}
+  thrown in /home2/daydonec/public_html/darkcode/signup.inc.php on line 6
+[02-Dec-2022 12:25:11 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_real_escape_string(): Argument #1 ($mysql) must be of type mysqli, null given in /home2/daydonec/public_html/darkcode/signup.inc.php:6
+Stack trace:
+#0 /home2/daydonec/public_html/darkcode/signup.inc.php(6): mysqli_real_escape_string()
+#1 {main}
+  thrown in /home2/daydonec/public_html/darkcode/signup.inc.php on line 6
+[02-Dec-2022 12:25:11 UTC] PHP Warning:  include_once(../dbh.php): Failed to open stream: No such file or directory in /home2/daydonec/public_html/darkcode/signup.inc.php on line 4
+[02-Dec-2022 12:25:11 UTC] PHP Warning:  include_once(): Failed opening '../dbh.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home2/daydonec/public_html/darkcode/signup.inc.php on line 4
+[02-Dec-2022 12:25:11 UTC] PHP Warning:  Undefined variable $conn in /home2/daydonec/public_html/darkcode/signup.inc.php on line 6
+[02-Dec-2022 12:25:11 UTC] PHP Warning:  Undefined array key "username" in /home2/daydonec/public_html/darkcode/signup.inc.php on line 6
+[02-Dec-2022 12:25:11 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_real_escape_string(): Argument #1 ($mysql) must be of type mysqli, null given in /home2/daydonec/public_html/darkcode/signup.inc.php:6
+Stack trace:
+#0 /home2/daydonec/public_html/darkcode/signup.inc.php(6): mysqli_real_escape_string()
+#1 {main}
+  thrown in /home2/daydonec/public_html/darkcode/signup.inc.php on line 6
+[02-Dec-2022 12:25:12 UTC] PHP Warning:  include_once(../dbh.php): Failed to open stream: No such file or directory in /home2/daydonec/public_html/darkcode/signup.inc.php on line 4
+[02-Dec-2022 12:25:12 UTC] PHP Warning:  include_once(): Failed opening '../dbh.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home2/daydonec/public_html/darkcode/signup.inc.php on line 4
+[02-Dec-2022 12:25:12 UTC] PHP Warning:  Undefined variable $conn in /home2/daydonec/public_html/darkcode/signup.inc.php on line 6
+[02-Dec-2022 12:25:12 UTC] PHP Warning:  Undefined array key "username" in /home2/daydonec/public_html/darkcode/signup.inc.php on line 6
+[02-Dec-2022 12:25:12 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_real_escape_string(): Argument #1 ($mysql) must be of type mysqli, null given in /home2/daydonec/public_html/darkcode/signup.inc.php:6
+Stack trace:
+#0 /home2/daydonec/public_html/darkcode/signup.inc.php(6): mysqli_real_escape_string()
+#1 {main}
+  thrown in /home2/daydonec/public_html/darkcode/signup.inc.php on line 6
+[02-Dec-2022 12:25:14 UTC] PHP Warning:  Undefined array key "user_id" in /home2/daydonec/public_html/darkcode/update.php on line 5
+[02-Dec-2022 12:25:14 UTC] PHP Warning:  Undefined array key "user_id" in /home2/daydonec/public_html/darkcode/update.php on line 5
+[02-Dec-2022 12:25:15 UTC] PHP Warning:  Undefined array key "user_id" in /home2/daydonec/public_html/darkcode/update.php on line 5
+[02-Dec-2022 12:26:03 UTC] PHP Warning:  include_once(../dbh.php): Failed to open stream: No such file or directory in /home2/daydonec/public_html/darkcode/signup.inc.php on line 4
+[02-Dec-2022 12:26:03 UTC] PHP Warning:  include_once(): Failed opening '../dbh.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home2/daydonec/public_html/darkcode/signup.inc.php on line 4
+[02-Dec-2022 12:26:03 UTC] PHP Warning:  Undefined variable $conn in /home2/daydonec/public_html/darkcode/signup.inc.php on line 6
+[02-Dec-2022 12:26:03 UTC] PHP Warning:  Undefined array key "username" in /home2/daydonec/public_html/darkcode/signup.inc.php on line 6
+[02-Dec-2022 12:26:03 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_real_escape_string(): Argument #1 ($mysql) must be of type mysqli, null given in /home2/daydonec/public_html/darkcode/signup.inc.php:6
+Stack trace:
+#0 /home2/daydonec/public_html/darkcode/signup.inc.php(6): mysqli_real_escape_string()
+#1 {main}
+  thrown in /home2/daydonec/public_html/darkcode/signup.inc.php on line 6
+[02-Dec-2022 12:26:07 UTC] PHP Warning:  Undefined array key "user_id" in /home2/daydonec/public_html/darkcode/update.php on line 5
+[02-Dec-2022 12:26:08 UTC] PHP Warning:  Undefined array key "user_id" in /home2/daydonec/public_html/darkcode/update.php on line 5
+[02-Dec-2022 12:28:19 UTC] PHP Warning:  Attempt to read property "status" on array in /home2/daydonec/public_html/darkcode/paystack.ini.php on line 34
+[02-Dec-2022 12:28:19 UTC] PHP Warning:  Attempt to read property "status" on array in /home2/daydonec/public_html/darkcode/paystack.ini.php on line 34
+[02-Dec-2022 12:28:23 UTC] PHP Warning:  Attempt to read property "status" on array in /home2/daydonec/public_html/darkcode/paystack.ini.php on line 34
+[02-Dec-2022 12:28:25 UTC] PHP Warning:  include_once(../dbh.php): Failed to open stream: No such file or directory in /home2/daydonec/public_html/darkcode/msg.inc.php on line 4
+[02-Dec-2022 12:28:25 UTC] PHP Warning:  include_once(): Failed opening '../dbh.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home2/daydonec/public_html/darkcode/msg.inc.php on line 4
+[02-Dec-2022 12:28:25 UTC] PHP Warning:  Undefined variable $conn in /home2/daydonec/public_html/darkcode/msg.inc.php on line 6
+[02-Dec-2022 12:28:25 UTC] PHP Warning:  Undefined array key "Name" in /home2/daydonec/public_html/darkcode/msg.inc.php on line 6
+[02-Dec-2022 12:28:25 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_real_escape_string(): Argument #1 ($mysql) must be of type mysqli, null given in /home2/daydonec/public_html/darkcode/msg.inc.php:6
+Stack trace:
+#0 /home2/daydonec/public_html/darkcode/msg.inc.php(6): mysqli_real_escape_string()
+#1 {main}
+  thrown in /home2/daydonec/public_html/darkcode/msg.inc.php on line 6
+[02-Dec-2022 12:28:25 UTC] PHP Warning:  include_once(../dbh.php): Failed to open stream: No such file or directory in /home2/daydonec/public_html/darkcode/msg.inc.php on line 4
+[02-Dec-2022 12:28:25 UTC] PHP Warning:  include_once(): Failed opening '../dbh.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home2/daydonec/public_html/darkcode/msg.inc.php on line 4
+[02-Dec-2022 12:28:25 UTC] PHP Warning:  Undefined variable $conn in /home2/daydonec/public_html/darkcode/msg.inc.php on line 6
+[02-Dec-2022 12:28:25 UTC] PHP Warning:  Undefined array key "Name" in /home2/daydonec/public_html/darkcode/msg.inc.php on line 6
+[02-Dec-2022 12:28:25 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_real_escape_string(): Argument #1 ($mysql) must be of type mysqli, null given in /home2/daydonec/public_html/darkcode/msg.inc.php:6
+Stack trace:
+#0 /home2/daydonec/public_html/darkcode/msg.inc.php(6): mysqli_real_escape_string()
+#1 {main}
+  thrown in /home2/daydonec/public_html/darkcode/msg.inc.php on line 6
+[02-Dec-2022 12:28:26 UTC] PHP Warning:  Attempt to read property "status" on array in /home2/daydonec/public_html/darkcode/paystack.ini - Copy.php on line 34
+[02-Dec-2022 12:28:26 UTC] PHP Warning:  Attempt to read property "status" on array in /home2/daydonec/public_html/darkcode/paystack.ini - Copy.php on line 34
+[02-Dec-2022 12:28:26 UTC] PHP Warning:  include_once(../dbh.php): Failed to open stream: No such file or directory in /home2/daydonec/public_html/darkcode/msg.inc.php on line 4
+[02-Dec-2022 12:28:26 UTC] PHP Warning:  include_once(): Failed opening '../dbh.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home2/daydonec/public_html/darkcode/msg.inc.php on line 4
+[02-Dec-2022 12:28:26 UTC] PHP Warning:  Undefined variable $conn in /home2/daydonec/public_html/darkcode/msg.inc.php on line 6
+[02-Dec-2022 12:28:26 UTC] PHP Warning:  Undefined array key "Name" in /home2/daydonec/public_html/darkcode/msg.inc.php on line 6
+[02-Dec-2022 12:28:26 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_real_escape_string(): Argument #1 ($mysql) must be of type mysqli, null given in /home2/daydonec/public_html/darkcode/msg.inc.php:6
+Stack trace:
+#0 /home2/daydonec/public_html/darkcode/msg.inc.php(6): mysqli_real_escape_string()
+#1 {main}
+  thrown in /home2/daydonec/public_html/darkcode/msg.inc.php on line 6
+[02-Dec-2022 12:28:31 UTC] PHP Warning:  include(inc/header.php): Failed to open stream: No such file or directory in /home2/daydonec/public_html/darkcode/payondelivery.php on line 2
+[02-Dec-2022 12:28:31 UTC] PHP Warning:  include(): Failed opening 'inc/header.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home2/daydonec/public_html/darkcode/payondelivery.php on line 2
+[02-Dec-2022 12:28:31 UTC] PHP Warning:  include(inc/footer.php): Failed to open stream: No such file or directory in /home2/daydonec/public_html/darkcode/payondelivery.php on line 48
+[02-Dec-2022 12:28:31 UTC] PHP Warning:  include(): Failed opening 'inc/footer.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home2/daydonec/public_html/darkcode/payondelivery.php on line 48
+[02-Dec-2022 12:28:31 UTC] PHP Warning:  include(inc/header.php): Failed to open stream: No such file or directory in /home2/daydonec/public_html/darkcode/payondelivery.php on line 2
+[02-Dec-2022 12:28:31 UTC] PHP Warning:  include(): Failed opening 'inc/header.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home2/daydonec/public_html/darkcode/payondelivery.php on line 2
+[02-Dec-2022 12:28:31 UTC] PHP Warning:  include(inc/footer.php): Failed to open stream: No such file or directory in /home2/daydonec/public_html/darkcode/payondelivery.php on line 48
+[02-Dec-2022 12:28:31 UTC] PHP Warning:  include(): Failed opening 'inc/footer.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home2/daydonec/public_html/darkcode/payondelivery.php on line 48
+[02-Dec-2022 12:28:31 UTC] PHP Warning:  include(inc/header.php): Failed to open stream: No such file or directory in /home2/daydonec/public_html/darkcode/payondelivery.php on line 2
+[02-Dec-2022 12:28:31 UTC] PHP Warning:  include(): Failed opening 'inc/header.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home2/daydonec/public_html/darkcode/payondelivery.php on line 2
+[02-Dec-2022 12:28:31 UTC] PHP Warning:  include(inc/footer.php): Failed to open stream: No such file or directory in /home2/daydonec/public_html/darkcode/payondelivery.php on line 48
+[02-Dec-2022 12:28:31 UTC] PHP Warning:  include(): Failed opening 'inc/footer.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home2/daydonec/public_html/darkcode/payondelivery.php on line 48
+[02-Dec-2022 12:28:32 UTC] PHP Warning:  include(inc/header.php): Failed to open stream: No such file or directory in /home2/daydonec/public_html/darkcode/payondelivery.php on line 2
+[02-Dec-2022 12:28:32 UTC] PHP Warning:  include(): Failed opening 'inc/header.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home2/daydonec/public_html/darkcode/payondelivery.php on line 2
+[02-Dec-2022 12:28:32 UTC] PHP Warning:  include(inc/footer.php): Failed to open stream: No such file or directory in /home2/daydonec/public_html/darkcode/payondelivery.php on line 48
+[02-Dec-2022 12:28:32 UTC] PHP Warning:  include(): Failed opening 'inc/footer.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home2/daydonec/public_html/darkcode/payondelivery.php on line 48
+[02-Dec-2022 12:28:33 UTC] PHP Warning:  Attempt to read property "status" on array in /home2/daydonec/public_html/darkcode/paystack.ini - Copy.php on line 34
+[02-Dec-2022 12:28:33 UTC] PHP Warning:  include_once(../dbh.php): Failed to open stream: No such file or directory in /home2/daydonec/public_html/darkcode/pay.inc.php on line 4
+[02-Dec-2022 12:28:33 UTC] PHP Warning:  include_once(): Failed opening '../dbh.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home2/daydonec/public_html/darkcode/pay.inc.php on line 4
+[02-Dec-2022 12:28:33 UTC] PHP Warning:  Undefined variable $conn in /home2/daydonec/public_html/darkcode/pay.inc.php on line 6
+[02-Dec-2022 12:28:33 UTC] PHP Warning:  Undefined array key "amount" in /home2/daydonec/public_html/darkcode/pay.inc.php on line 6
+[02-Dec-2022 12:28:33 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_real_escape_string(): Argument #1 ($mysql) must be of type mysqli, null given in /home2/daydonec/public_html/darkcode/pay.inc.php:6
+Stack trace:
+#0 /home2/daydonec/public_html/darkcode/pay.inc.php(6): mysqli_real_escape_string()
+#1 {main}
+  thrown in /home2/daydonec/public_html/darkcode/pay.inc.php on line 6
+[02-Dec-2022 12:28:34 UTC] PHP Warning:  include_once(../dbh.php): Failed to open stream: No such file or directory in /home2/daydonec/public_html/darkcode/pay.inc.php on line 4
+[02-Dec-2022 12:28:34 UTC] PHP Warning:  include_once(): Failed opening '../dbh.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home2/daydonec/public_html/darkcode/pay.inc.php on line 4
+[02-Dec-2022 12:28:34 UTC] PHP Warning:  Undefined variable $conn in /home2/daydonec/public_html/darkcode/pay.inc.php on line 6
+[02-Dec-2022 12:28:34 UTC] PHP Warning:  Undefined array key "amount" in /home2/daydonec/public_html/darkcode/pay.inc.php on line 6
+[02-Dec-2022 12:28:34 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_real_escape_string(): Argument #1 ($mysql) must be of type mysqli, null given in /home2/daydonec/public_html/darkcode/pay.inc.php:6
+Stack trace:
+#0 /home2/daydonec/public_html/darkcode/pay.inc.php(6): mysqli_real_escape_string()
+#1 {main}
+  thrown in /home2/daydonec/public_html/darkcode/pay.inc.php on line 6
+[02-Dec-2022 12:28:35 UTC] PHP Warning:  include_once(../dbh.php): Failed to open stream: No such file or directory in /home2/daydonec/public_html/darkcode/pay.inc.php on line 4
+[02-Dec-2022 12:28:35 UTC] PHP Warning:  include_once(): Failed opening '../dbh.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home2/daydonec/public_html/darkcode/pay.inc.php on line 4
+[02-Dec-2022 12:28:35 UTC] PHP Warning:  Undefined variable $conn in /home2/daydonec/public_html/darkcode/pay.inc.php on line 6
+[02-Dec-2022 12:28:35 UTC] PHP Warning:  Undefined array key "amount" in /home2/daydonec/public_html/darkcode/pay.inc.php on line 6
+[02-Dec-2022 12:28:35 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_real_escape_string(): Argument #1 ($mysql) must be of type mysqli, null given in /home2/daydonec/public_html/darkcode/pay.inc.php:6
+Stack trace:
+#0 /home2/daydonec/public_html/darkcode/pay.inc.php(6): mysqli_real_escape_string()
+#1 {main}
+  thrown in /home2/daydonec/public_html/darkcode/pay.inc.php on line 6
+[02-Dec-2022 12:29:16 UTC] PHP Warning:  include_once(../dbh.php): Failed to open stream: No such file or directory in /home2/daydonec/public_html/darkcode/msg.inc.php on line 4
+[02-Dec-2022 12:29:16 UTC] PHP Warning:  include_once(): Failed opening '../dbh.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home2/daydonec/public_html/darkcode/msg.inc.php on line 4
+[02-Dec-2022 12:29:16 UTC] PHP Warning:  Undefined variable $conn in /home2/daydonec/public_html/darkcode/msg.inc.php on line 6
+[02-Dec-2022 12:29:16 UTC] PHP Warning:  Undefined array key "Name" in /home2/daydonec/public_html/darkcode/msg.inc.php on line 6
+[02-Dec-2022 12:29:16 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_real_escape_string(): Argument #1 ($mysql) must be of type mysqli, null given in /home2/daydonec/public_html/darkcode/msg.inc.php:6
+Stack trace:
+#0 /home2/daydonec/public_html/darkcode/msg.inc.php(6): mysqli_real_escape_string()
+#1 {main}
+  thrown in /home2/daydonec/public_html/darkcode/msg.inc.php on line 6
+[02-Dec-2022 12:29:22 UTC] PHP Warning:  include(inc/header.php): Failed to open stream: No such file or directory in /home2/daydonec/public_html/darkcode/payondelivery.php on line 2
+[02-Dec-2022 12:29:22 UTC] PHP Warning:  include(): Failed opening 'inc/header.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home2/daydonec/public_html/darkcode/payondelivery.php on line 2
+[02-Dec-2022 12:29:22 UTC] PHP Warning:  include(inc/footer.php): Failed to open stream: No such file or directory in /home2/daydonec/public_html/darkcode/payondelivery.php on line 48
+[02-Dec-2022 12:29:22 UTC] PHP Warning:  include(): Failed opening 'inc/footer.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home2/daydonec/public_html/darkcode/payondelivery.php on line 48
+[02-Dec-2022 12:29:24 UTC] PHP Warning:  include_once(../dbh.php): Failed to open stream: No such file or directory in /home2/daydonec/public_html/darkcode/pay.inc.php on line 4
+[02-Dec-2022 12:29:24 UTC] PHP Warning:  include_once(): Failed opening '../dbh.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home2/daydonec/public_html/darkcode/pay.inc.php on line 4
+[02-Dec-2022 12:29:24 UTC] PHP Warning:  Undefined variable $conn in /home2/daydonec/public_html/darkcode/pay.inc.php on line 6
+[02-Dec-2022 12:29:24 UTC] PHP Warning:  Undefined array key "amount" in /home2/daydonec/public_html/darkcode/pay.inc.php on line 6
+[02-Dec-2022 12:29:24 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_real_escape_string(): Argument #1 ($mysql) must be of type mysqli, null given in /home2/daydonec/public_html/darkcode/pay.inc.php:6
+Stack trace:
+#0 /home2/daydonec/public_html/darkcode/pay.inc.php(6): mysqli_real_escape_string()
+#1 {main}
+  thrown in /home2/daydonec/public_html/darkcode/pay.inc.php on line 6
+[02-Dec-2022 12:29:44 UTC] PHP Warning:  Attempt to read property "status" on array in /home2/daydonec/public_html/darkcode/paystack.ini - Copy.php on line 34
+[02-Dec-2022 12:29:44 UTC] PHP Warning:  Attempt to read property "status" on array in /home2/daydonec/public_html/darkcode/paystack.ini.php on line 34
+[02-Dec-2022 12:29:44 UTC] PHP Warning:  Attempt to read property "status" on array in /home2/daydonec/public_html/darkcode/paystack.ini - Copy.php on line 34
+[02-Dec-2022 12:30:14 UTC] PHP Warning:  include_once(../dbh.php): Failed to open stream: No such file or directory in /home2/daydonec/public_html/darkcode/pay.inc.php on line 4
+[02-Dec-2022 12:30:14 UTC] PHP Warning:  include_once(): Failed opening '../dbh.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home2/daydonec/public_html/darkcode/pay.inc.php on line 4
+[02-Dec-2022 12:30:14 UTC] PHP Warning:  Undefined variable $conn in /home2/daydonec/public_html/darkcode/pay.inc.php on line 6
+[02-Dec-2022 12:30:14 UTC] PHP Warning:  Undefined array key "amount" in /home2/daydonec/public_html/darkcode/pay.inc.php on line 6
+[02-Dec-2022 12:30:14 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_real_escape_string(): Argument #1 ($mysql) must be of type mysqli, null given in /home2/daydonec/public_html/darkcode/pay.inc.php:6
+Stack trace:
+#0 /home2/daydonec/public_html/darkcode/pay.inc.php(6): mysqli_real_escape_string()
+#1 {main}
+  thrown in /home2/daydonec/public_html/darkcode/pay.inc.php on line 6
+[02-Dec-2022 12:30:30 UTC] PHP Warning:  include_once(../dbh.php): Failed to open stream: No such file or directory in /home2/daydonec/public_html/darkcode/msg.inc.php on line 4
+[02-Dec-2022 12:30:30 UTC] PHP Warning:  include_once(): Failed opening '../dbh.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home2/daydonec/public_html/darkcode/msg.inc.php on line 4
+[02-Dec-2022 12:30:30 UTC] PHP Warning:  Undefined variable $conn in /home2/daydonec/public_html/darkcode/msg.inc.php on line 6
+[02-Dec-2022 12:30:30 UTC] PHP Warning:  Undefined array key "Name" in /home2/daydonec/public_html/darkcode/msg.inc.php on line 6
+[02-Dec-2022 12:30:30 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_real_escape_string(): Argument #1 ($mysql) must be of type mysqli, null given in /home2/daydonec/public_html/darkcode/msg.inc.php:6
+Stack trace:
+#0 /home2/daydonec/public_html/darkcode/msg.inc.php(6): mysqli_real_escape_string()
+#1 {main}
+  thrown in /home2/daydonec/public_html/darkcode/msg.inc.php on line 6
+[02-Dec-2022 12:30:34 UTC] PHP Warning:  Attempt to read property "status" on array in /home2/daydonec/public_html/darkcode/paystack.ini.php on line 34
+[02-Dec-2022 12:31:25 UTC] PHP Warning:  include_once(../dbh.php): Failed to open stream: No such file or directory in /home2/daydonec/public_html/darkcode/pay.inc.php on line 4
+[02-Dec-2022 12:31:25 UTC] PHP Warning:  include_once(): Failed opening '../dbh.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home2/daydonec/public_html/darkcode/pay.inc.php on line 4
+[02-Dec-2022 12:31:25 UTC] PHP Warning:  Undefined variable $conn in /home2/daydonec/public_html/darkcode/pay.inc.php on line 6
+[02-Dec-2022 12:31:25 UTC] PHP Warning:  Undefined array key "amount" in /home2/daydonec/public_html/darkcode/pay.inc.php on line 6
+[02-Dec-2022 12:31:25 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_real_escape_string(): Argument #1 ($mysql) must be of type mysqli, null given in /home2/daydonec/public_html/darkcode/pay.inc.php:6
+Stack trace:
+#0 /home2/daydonec/public_html/darkcode/pay.inc.php(6): mysqli_real_escape_string()
+#1 {main}
+  thrown in /home2/daydonec/public_html/darkcode/pay.inc.php on line 6
+[02-Dec-2022 12:33:13 UTC] PHP Warning:  Undefined array key "email" in /home2/daydonec/public_html/darkcode/wish.inc.php on line 6
+[02-Dec-2022 12:33:13 UTC] PHP Warning:  Undefined array key "phone" in /home2/daydonec/public_html/darkcode/wish.inc.php on line 6
+[02-Dec-2022 12:33:13 UTC] PHP Warning:  Undefined array key "p_name" in /home2/daydonec/public_html/darkcode/wish.inc.php on line 6
+[02-Dec-2022 12:33:13 UTC] PHP Warning:  Undefined array key "email" in /home2/daydonec/public_html/darkcode/wish.inc.php on line 7
+[02-Dec-2022 12:33:13 UTC] PHP Warning:  Undefined array key "phone" in /home2/daydonec/public_html/darkcode/wish.inc.php on line 8
+[02-Dec-2022 12:33:13 UTC] PHP Warning:  Undefined array key "p_name" in /home2/daydonec/public_html/darkcode/wish.inc.php on line 9
+[02-Dec-2022 12:33:13 UTC] PHP Warning:  Undefined array key "region" in /home2/daydonec/public_html/darkcode/wish.inc.php on line 10
+[02-Dec-2022 12:42:38 UTC] PHP Warning:  Undefined array key "email" in /home2/daydonec/public_html/darkcode/wish.inc.php on line 6
+[02-Dec-2022 12:42:38 UTC] PHP Warning:  Undefined array key "phone" in /home2/daydonec/public_html/darkcode/wish.inc.php on line 6
+[02-Dec-2022 12:42:38 UTC] PHP Warning:  Undefined array key "p_name" in /home2/daydonec/public_html/darkcode/wish.inc.php on line 6
+[02-Dec-2022 12:42:38 UTC] PHP Warning:  Undefined array key "email" in /home2/daydonec/public_html/darkcode/wish.inc.php on line 7
+[02-Dec-2022 12:42:38 UTC] PHP Warning:  Undefined array key "phone" in /home2/daydonec/public_html/darkcode/wish.inc.php on line 8
+[02-Dec-2022 12:42:38 UTC] PHP Warning:  Undefined array key "p_name" in /home2/daydonec/public_html/darkcode/wish.inc.php on line 9
+[02-Dec-2022 12:42:38 UTC] PHP Warning:  Undefined array key "region" in /home2/daydonec/public_html/darkcode/wish.inc.php on line 10
+[02-Dec-2022 12:44:10 UTC] PHP Warning:  Undefined array key "email" in /home2/daydonec/public_html/darkcode/wish.inc.php on line 6
+[02-Dec-2022 12:44:10 UTC] PHP Warning:  Undefined array key "phone" in /home2/daydonec/public_html/darkcode/wish.inc.php on line 6
+[02-Dec-2022 12:44:10 UTC] PHP Warning:  Undefined array key "p_name" in /home2/daydonec/public_html/darkcode/wish.inc.php on line 6
+[02-Dec-2022 12:44:10 UTC] PHP Warning:  Undefined array key "email" in /home2/daydonec/public_html/darkcode/wish.inc.php on line 7
+[02-Dec-2022 12:44:10 UTC] PHP Warning:  Undefined array key "phone" in /home2/daydonec/public_html/darkcode/wish.inc.php on line 8
+[02-Dec-2022 12:44:10 UTC] PHP Warning:  Undefined array key "p_name" in /home2/daydonec/public_html/darkcode/wish.inc.php on line 9
+[02-Dec-2022 12:44:10 UTC] PHP Warning:  Undefined array key "region" in /home2/daydonec/public_html/darkcode/wish.inc.php on line 10
+[02-Dec-2022 12:45:39 UTC] PHP Warning:  Undefined array key "email" in /home2/daydonec/public_html/darkcode/wish.inc.php on line 6
+[02-Dec-2022 12:45:39 UTC] PHP Warning:  Undefined array key "phone" in /home2/daydonec/public_html/darkcode/wish.inc.php on line 6
+[02-Dec-2022 12:45:39 UTC] PHP Warning:  Undefined array key "p_name" in /home2/daydonec/public_html/darkcode/wish.inc.php on line 6
+[02-Dec-2022 12:45:39 UTC] PHP Warning:  Undefined array key "email" in /home2/daydonec/public_html/darkcode/wish.inc.php on line 7
+[02-Dec-2022 12:45:39 UTC] PHP Warning:  Undefined array key "phone" in /home2/daydonec/public_html/darkcode/wish.inc.php on line 8
+[02-Dec-2022 12:45:39 UTC] PHP Warning:  Undefined array key "p_name" in /home2/daydonec/public_html/darkcode/wish.inc.php on line 9
+[02-Dec-2022 12:45:39 UTC] PHP Warning:  Undefined array key "region" in /home2/daydonec/public_html/darkcode/wish.inc.php on line 10
+[02-Dec-2022 16:46:48 UTC] PHP Warning:  include(inc/header.php): Failed to open stream: No such file or directory in /home2/daydonec/public_html/darkcode/payondelivery.php on line 2
+[02-Dec-2022 16:46:48 UTC] PHP Warning:  include(): Failed opening 'inc/header.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home2/daydonec/public_html/darkcode/payondelivery.php on line 2
+[02-Dec-2022 16:46:48 UTC] PHP Warning:  include(inc/footer.php): Failed to open stream: No such file or directory in /home2/daydonec/public_html/darkcode/payondelivery.php on line 48
+[02-Dec-2022 16:46:48 UTC] PHP Warning:  include(): Failed opening 'inc/footer.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home2/daydonec/public_html/darkcode/payondelivery.php on line 48
+[02-Dec-2022 16:47:20 UTC] PHP Warning:  include_once(../dbh.php): Failed to open stream: No such file or directory in /home2/daydonec/public_html/darkcode/signup.inc.php on line 4
+[02-Dec-2022 16:47:20 UTC] PHP Warning:  include_once(): Failed opening '../dbh.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home2/daydonec/public_html/darkcode/signup.inc.php on line 4
+[02-Dec-2022 16:47:20 UTC] PHP Warning:  Undefined variable $conn in /home2/daydonec/public_html/darkcode/signup.inc.php on line 6
+[02-Dec-2022 16:47:20 UTC] PHP Warning:  Undefined array key "username" in /home2/daydonec/public_html/darkcode/signup.inc.php on line 6
+[02-Dec-2022 16:47:20 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_real_escape_string(): Argument #1 ($mysql) must be of type mysqli, null given in /home2/daydonec/public_html/darkcode/signup.inc.php:6
+Stack trace:
+#0 /home2/daydonec/public_html/darkcode/signup.inc.php(6): mysqli_real_escape_string()
+#1 {main}
+  thrown in /home2/daydonec/public_html/darkcode/signup.inc.php on line 6
+[03-Dec-2022 00:47:10 UTC] PHP Warning:  include(inc/header.php): Failed to open stream: No such file or directory in /home2/daydonec/public_html/darkcode/payondelivery.php on line 2
+[03-Dec-2022 00:47:10 UTC] PHP Warning:  include(): Failed opening 'inc/header.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home2/daydonec/public_html/darkcode/payondelivery.php on line 2
+[03-Dec-2022 00:47:10 UTC] PHP Warning:  include(inc/footer.php): Failed to open stream: No such file or directory in /home2/daydonec/public_html/darkcode/payondelivery.php on line 48
+[03-Dec-2022 00:47:10 UTC] PHP Warning:  include(): Failed opening 'inc/footer.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home2/daydonec/public_html/darkcode/payondelivery.php on line 48
+[04-Dec-2022 09:54:34 UTC] PHP Warning:  include_once(../dbh.php): Failed to open stream: No such file or directory in /home2/daydonec/public_html/darkcode/signup.inc.php on line 4
+[04-Dec-2022 09:54:34 UTC] PHP Warning:  include_once(): Failed opening '../dbh.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home2/daydonec/public_html/darkcode/signup.inc.php on line 4
+[04-Dec-2022 09:54:34 UTC] PHP Warning:  Undefined variable $conn in /home2/daydonec/public_html/darkcode/signup.inc.php on line 6
+[04-Dec-2022 09:54:34 UTC] PHP Warning:  Undefined array key "username" in /home2/daydonec/public_html/darkcode/signup.inc.php on line 6
+[04-Dec-2022 09:54:34 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_real_escape_string(): Argument #1 ($mysql) must be of type mysqli, null given in /home2/daydonec/public_html/darkcode/signup.inc.php:6
+Stack trace:
+#0 /home2/daydonec/public_html/darkcode/signup.inc.php(6): mysqli_real_escape_string()
+#1 {main}
+  thrown in /home2/daydonec/public_html/darkcode/signup.inc.php on line 6
+[04-Dec-2022 10:43:18 UTC] PHP Warning:  Attempt to read property "status" on array in /home2/daydonec/public_html/darkcode/paystack.ini - Copy.php on line 34
+[05-Dec-2022 15:11:20 UTC] PHP Warning:  include(inc/header.php): Failed to open stream: No such file or directory in /home2/daydonec/public_html/darkcode/payondelivery.php on line 2
+[05-Dec-2022 15:11:20 UTC] PHP Warning:  include(): Failed opening 'inc/header.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home2/daydonec/public_html/darkcode/payondelivery.php on line 2
+[05-Dec-2022 15:11:20 UTC] PHP Warning:  include(inc/footer.php): Failed to open stream: No such file or directory in /home2/daydonec/public_html/darkcode/payondelivery.php on line 48
+[05-Dec-2022 15:11:20 UTC] PHP Warning:  include(): Failed opening 'inc/footer.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home2/daydonec/public_html/darkcode/payondelivery.php on line 48
+[10-Dec-2022 01:31:39 UTC] PHP Warning:  Attempt to read property "status" on array in /home2/daydonec/public_html/darkcode/paystack.ini - Copy.php on line 34
+[14-Dec-2022 12:22:54 UTC] PHP Warning:  Attempt to read property "status" on array in /home2/daydonec/public_html/darkcode/paystack.ini.php on line 34
+[14-Dec-2022 12:23:25 UTC] PHP Warning:  include_once(../dbh.php): Failed to open stream: No such file or directory in /home2/daydonec/public_html/darkcode/pay.inc.php on line 4
+[14-Dec-2022 12:23:25 UTC] PHP Warning:  include_once(): Failed opening '../dbh.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home2/daydonec/public_html/darkcode/pay.inc.php on line 4
+[14-Dec-2022 12:23:25 UTC] PHP Warning:  Undefined variable $conn in /home2/daydonec/public_html/darkcode/pay.inc.php on line 6
+[14-Dec-2022 12:23:25 UTC] PHP Warning:  Undefined array key "amount" in /home2/daydonec/public_html/darkcode/pay.inc.php on line 6
+[14-Dec-2022 12:23:25 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_real_escape_string(): Argument #1 ($mysql) must be of type mysqli, null given in /home2/daydonec/public_html/darkcode/pay.inc.php:6
+Stack trace:
+#0 /home2/daydonec/public_html/darkcode/pay.inc.php(6): mysqli_real_escape_string()
+#1 {main}
+  thrown in /home2/daydonec/public_html/darkcode/pay.inc.php on line 6
+[16-Dec-2022 23:45:03 UTC] PHP Warning:  include_once(../dbh.php): Failed to open stream: No such file or directory in /home2/daydonec/public_html/darkcode/pay.inc.php on line 4
+[16-Dec-2022 23:45:03 UTC] PHP Warning:  include_once(): Failed opening '../dbh.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home2/daydonec/public_html/darkcode/pay.inc.php on line 4
+[16-Dec-2022 23:45:03 UTC] PHP Warning:  Undefined variable $conn in /home2/daydonec/public_html/darkcode/pay.inc.php on line 6
+[16-Dec-2022 23:45:03 UTC] PHP Warning:  Undefined array key "amount" in /home2/daydonec/public_html/darkcode/pay.inc.php on line 6
+[16-Dec-2022 23:45:03 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_real_escape_string(): Argument #1 ($mysql) must be of type mysqli, null given in /home2/daydonec/public_html/darkcode/pay.inc.php:6
+Stack trace:
+#0 /home2/daydonec/public_html/darkcode/pay.inc.php(6): mysqli_real_escape_string()
+#1 {main}
+  thrown in /home2/daydonec/public_html/darkcode/pay.inc.php on line 6
+[18-Dec-2022 20:58:36 UTC] PHP Warning:  Attempt to read property "status" on array in /home2/daydonec/public_html/darkcode/paystack.ini.php on line 34
+[18-Dec-2022 21:13:29 UTC] PHP Warning:  Attempt to read property "status" on array in /home2/daydonec/public_html/darkcode/paystack.ini - Copy.php on line 34
+[18-Dec-2022 21:33:01 UTC] PHP Warning:  Attempt to read property "status" on array in /home2/daydonec/public_html/darkcode/paystack.ini - Copy.php on line 34
+[18-Dec-2022 21:52:14 UTC] PHP Warning:  Attempt to read property "status" on array in /home2/daydonec/public_html/darkcode/paystack.ini.php on line 34
+[20-Dec-2022 02:40:52 UTC] PHP Warning:  include(inc/header.php): Failed to open stream: No such file or directory in /home2/daydonec/public_html/darkcode/payondelivery.php on line 2
+[20-Dec-2022 02:40:52 UTC] PHP Warning:  include(): Failed opening 'inc/header.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home2/daydonec/public_html/darkcode/payondelivery.php on line 2
+[20-Dec-2022 02:40:52 UTC] PHP Warning:  include(inc/footer.php): Failed to open stream: No such file or directory in /home2/daydonec/public_html/darkcode/payondelivery.php on line 48
+[20-Dec-2022 02:40:52 UTC] PHP Warning:  include(): Failed opening 'inc/footer.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home2/daydonec/public_html/darkcode/payondelivery.php on line 48
+[27-Dec-2022 13:38:52 UTC] PHP Warning:  Attempt to read property "status" on array in /home2/daydonec/public_html/darkcode/paystack.ini - Copy.php on line 34
+[04-Jan-2023 10:22:37 UTC] PHP Warning:  Attempt to read property "status" on array in /home2/daydonec/public_html/darkcode/paystack.ini.php on line 34
+[15-Jan-2023 23:51:05 UTC] PHP Warning:  include_once(../dbh.php): Failed to open stream: No such file or directory in /home2/daydonec/public_html/darkcode/pay.inc.php on line 4
+[15-Jan-2023 23:51:05 UTC] PHP Warning:  include_once(): Failed opening '../dbh.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home2/daydonec/public_html/darkcode/pay.inc.php on line 4
+[15-Jan-2023 23:51:05 UTC] PHP Warning:  Undefined variable $conn in /home2/daydonec/public_html/darkcode/pay.inc.php on line 6
+[15-Jan-2023 23:51:05 UTC] PHP Warning:  Undefined array key "amount" in /home2/daydonec/public_html/darkcode/pay.inc.php on line 6
+[15-Jan-2023 23:51:05 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_real_escape_string(): Argument #1 ($mysql) must be of type mysqli, null given in /home2/daydonec/public_html/darkcode/pay.inc.php:6
+Stack trace:
+#0 /home2/daydonec/public_html/darkcode/pay.inc.php(6): mysqli_real_escape_string()
+#1 {main}
+  thrown in /home2/daydonec/public_html/darkcode/pay.inc.php on line 6
+[17-Jan-2023 21:43:32 UTC] PHP Warning:  Attempt to read property "status" on array in /home2/daydonec/public_html/darkcode/paystack.ini.php on line 34
+[17-Jan-2023 23:01:36 UTC] PHP Warning:  Attempt to read property "status" on array in /home2/daydonec/public_html/darkcode/paystack.ini.php on line 34
+[18-Jan-2023 02:27:27 UTC] PHP Warning:  Attempt to read property "status" on array in /home2/daydonec/public_html/darkcode/paystack.ini - Copy.php on line 34
+[18-Jan-2023 03:55:38 UTC] PHP Warning:  Attempt to read property "status" on array in /home2/daydonec/public_html/darkcode/paystack.ini - Copy.php on line 34
+[30-Jan-2023 07:31:34 UTC] PHP Warning:  Attempt to read property "status" on array in /home2/daydonec/public_html/darkcode/paystack.ini - Copy.php on line 34
+[30-Jan-2023 07:31:42 UTC] PHP Warning:  Attempt to read property "status" on array in /home2/daydonec/public_html/darkcode/paystack.ini.php on line 34
+[30-Jan-2023 07:31:48 UTC] PHP Warning:  include(inc/header.php): Failed to open stream: No such file or directory in /home2/daydonec/public_html/darkcode/payondelivery.php on line 2
+[30-Jan-2023 07:31:48 UTC] PHP Warning:  include(): Failed opening 'inc/header.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home2/daydonec/public_html/darkcode/payondelivery.php on line 2
+[30-Jan-2023 07:31:48 UTC] PHP Warning:  include(inc/footer.php): Failed to open stream: No such file or directory in /home2/daydonec/public_html/darkcode/payondelivery.php on line 48
+[30-Jan-2023 07:31:48 UTC] PHP Warning:  include(): Failed opening 'inc/footer.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home2/daydonec/public_html/darkcode/payondelivery.php on line 48
+[30-Jan-2023 07:31:54 UTC] PHP Warning:  include_once(../dbh.php): Failed to open stream: No such file or directory in /home2/daydonec/public_html/darkcode/pay.inc.php on line 4
+[30-Jan-2023 07:31:54 UTC] PHP Warning:  include_once(): Failed opening '../dbh.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home2/daydonec/public_html/darkcode/pay.inc.php on line 4
+[30-Jan-2023 07:31:54 UTC] PHP Warning:  Undefined variable $conn in /home2/daydonec/public_html/darkcode/pay.inc.php on line 6
+[30-Jan-2023 07:31:54 UTC] PHP Warning:  Undefined array key "amount" in /home2/daydonec/public_html/darkcode/pay.inc.php on line 6
+[30-Jan-2023 07:31:54 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_real_escape_string(): Argument #1 ($mysql) must be of type mysqli, null given in /home2/daydonec/public_html/darkcode/pay.inc.php:6
+Stack trace:
+#0 /home2/daydonec/public_html/darkcode/pay.inc.php(6): mysqli_real_escape_string()
+#1 {main}
+  thrown in /home2/daydonec/public_html/darkcode/pay.inc.php on line 6
+[30-Jan-2023 07:31:57 UTC] PHP Warning:  include_once(../dbh.php): Failed to open stream: No such file or directory in /home2/daydonec/public_html/darkcode/pay.inc.php on line 4
+[30-Jan-2023 07:31:57 UTC] PHP Warning:  include_once(): Failed opening '../dbh.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home2/daydonec/public_html/darkcode/pay.inc.php on line 4
+[30-Jan-2023 07:31:57 UTC] PHP Warning:  Undefined variable $conn in /home2/daydonec/public_html/darkcode/pay.inc.php on line 6
+[30-Jan-2023 07:31:57 UTC] PHP Warning:  Undefined array key "amount" in /home2/daydonec/public_html/darkcode/pay.inc.php on line 6
+[30-Jan-2023 07:31:57 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_real_escape_string(): Argument #1 ($mysql) must be of type mysqli, null given in /home2/daydonec/public_html/darkcode/pay.inc.php:6
+Stack trace:
+#0 /home2/daydonec/public_html/darkcode/pay.inc.php(6): mysqli_real_escape_string()
+#1 {main}
+  thrown in /home2/daydonec/public_html/darkcode/pay.inc.php on line 6
+[30-Jan-2023 07:32:01 UTC] PHP Warning:  include_once(../dbh.php): Failed to open stream: No such file or directory in /home2/daydonec/public_html/darkcode/pay.inc.php on line 4
+[30-Jan-2023 07:32:01 UTC] PHP Warning:  include_once(): Failed opening '../dbh.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home2/daydonec/public_html/darkcode/pay.inc.php on line 4
+[30-Jan-2023 07:32:01 UTC] PHP Warning:  Undefined variable $conn in /home2/daydonec/public_html/darkcode/pay.inc.php on line 6
+[30-Jan-2023 07:32:01 UTC] PHP Warning:  Undefined array key "amount" in /home2/daydonec/public_html/darkcode/pay.inc.php on line 6
+[30-Jan-2023 07:32:01 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_real_escape_string(): Argument #1 ($mysql) must be of type mysqli, null given in /home2/daydonec/public_html/darkcode/pay.inc.php:6
+Stack trace:
+#0 /home2/daydonec/public_html/darkcode/pay.inc.php(6): mysqli_real_escape_string()
+#1 {main}
+  thrown in /home2/daydonec/public_html/darkcode/pay.inc.php on line 6
+[14-Feb-2023 23:58:12 UTC] PHP Warning:  include_once(../dbh.php): Failed to open stream: No such file or directory in /home2/daydonec/public_html/darkcode/pay.inc.php on line 4
+[14-Feb-2023 23:58:12 UTC] PHP Warning:  include_once(): Failed opening '../dbh.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home2/daydonec/public_html/darkcode/pay.inc.php on line 4
+[14-Feb-2023 23:58:12 UTC] PHP Warning:  Undefined variable $conn in /home2/daydonec/public_html/darkcode/pay.inc.php on line 6
+[14-Feb-2023 23:58:12 UTC] PHP Warning:  Undefined array key "amount" in /home2/daydonec/public_html/darkcode/pay.inc.php on line 6
+[14-Feb-2023 23:58:12 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_real_escape_string(): Argument #1 ($mysql) must be of type mysqli, null given in /home2/daydonec/public_html/darkcode/pay.inc.php:6
+Stack trace:
+#0 /home2/daydonec/public_html/darkcode/pay.inc.php(6): mysqli_real_escape_string()
+#1 {main}
+  thrown in /home2/daydonec/public_html/darkcode/pay.inc.php on line 6
+[16-Feb-2023 14:18:54 UTC] PHP Warning:  include(inc/header.php): Failed to open stream: No such file or directory in /home2/daydonec/public_html/darkcode/payondelivery.php on line 2
+[16-Feb-2023 14:18:54 UTC] PHP Warning:  include(): Failed opening 'inc/header.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home2/daydonec/public_html/darkcode/payondelivery.php on line 2
+[16-Feb-2023 14:18:54 UTC] PHP Warning:  include(inc/footer.php): Failed to open stream: No such file or directory in /home2/daydonec/public_html/darkcode/payondelivery.php on line 48
+[16-Feb-2023 14:18:54 UTC] PHP Warning:  include(): Failed opening 'inc/footer.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home2/daydonec/public_html/darkcode/payondelivery.php on line 48
+[20-Feb-2023 08:00:20 UTC] PHP Warning:  Attempt to read property "status" on array in /home2/daydonec/public_html/darkcode/paystack.ini.php on line 34
+[20-Feb-2023 16:26:11 UTC] PHP Warning:  Attempt to read property "status" on array in /home2/daydonec/public_html/darkcode/paystack.ini.php on line 34
+[20-Feb-2023 16:54:24 UTC] PHP Warning:  Attempt to read property "status" on array in /home2/daydonec/public_html/darkcode/paystack.ini - Copy.php on line 34
+[20-Feb-2023 19:46:31 UTC] PHP Warning:  Attempt to read property "status" on array in /home2/daydonec/public_html/darkcode/paystack.ini - Copy.php on line 34
+[16-Mar-2023 23:21:57 UTC] PHP Warning:  include_once(../dbh.php): Failed to open stream: No such file or directory in /home2/daydonec/public_html/darkcode/pay.inc.php on line 4
+[16-Mar-2023 23:21:57 UTC] PHP Warning:  include_once(): Failed opening '../dbh.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home2/daydonec/public_html/darkcode/pay.inc.php on line 4
+[16-Mar-2023 23:21:57 UTC] PHP Warning:  Undefined variable $conn in /home2/daydonec/public_html/darkcode/pay.inc.php on line 6
+[16-Mar-2023 23:21:57 UTC] PHP Warning:  Undefined array key "amount" in /home2/daydonec/public_html/darkcode/pay.inc.php on line 6
+[16-Mar-2023 23:21:57 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_real_escape_string(): Argument #1 ($mysql) must be of type mysqli, null given in /home2/daydonec/public_html/darkcode/pay.inc.php:6
+Stack trace:
+#0 /home2/daydonec/public_html/darkcode/pay.inc.php(6): mysqli_real_escape_string()
+#1 {main}
+  thrown in /home2/daydonec/public_html/darkcode/pay.inc.php on line 6
+[19-Mar-2023 13:06:28 UTC] PHP Warning:  Attempt to read property "status" on array in /home2/daydonec/public_html/darkcode/paystack.ini - Copy.php on line 34
+[22-Mar-2023 17:06:37 UTC] PHP Warning:  Attempt to read property "status" on array in /home2/daydonec/public_html/darkcode/paystack.ini.php on line 34
+[22-Mar-2023 17:41:58 UTC] PHP Warning:  Attempt to read property "status" on array in /home2/daydonec/public_html/darkcode/paystack.ini - Copy.php on line 34
+[23-Mar-2023 23:06:59 UTC] PHP Warning:  include(inc/header.php): Failed to open stream: No such file or directory in /home2/daydonec/public_html/darkcode/payondelivery.php on line 2
+[23-Mar-2023 23:06:59 UTC] PHP Warning:  include(): Failed opening 'inc/header.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home2/daydonec/public_html/darkcode/payondelivery.php on line 2
+[23-Mar-2023 23:06:59 UTC] PHP Warning:  include(inc/footer.php): Failed to open stream: No such file or directory in /home2/daydonec/public_html/darkcode/payondelivery.php on line 48
+[23-Mar-2023 23:06:59 UTC] PHP Warning:  include(): Failed opening 'inc/footer.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home2/daydonec/public_html/darkcode/payondelivery.php on line 48
+[12-Apr-2023 05:22:59 UTC] PHP Warning:  Undefined array key "user_id" in /home2/daydonec/public_html/darkcode/update.php on line 5
+[15-Apr-2023 23:33:12 UTC] PHP Warning:  include_once(../dbh.php): Failed to open stream: No such file or directory in /home2/daydonec/public_html/darkcode/pay.inc.php on line 4
+[15-Apr-2023 23:33:12 UTC] PHP Warning:  include_once(): Failed opening '../dbh.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home2/daydonec/public_html/darkcode/pay.inc.php on line 4
+[15-Apr-2023 23:33:12 UTC] PHP Warning:  Undefined variable $conn in /home2/daydonec/public_html/darkcode/pay.inc.php on line 6
+[15-Apr-2023 23:33:12 UTC] PHP Warning:  Undefined array key "amount" in /home2/daydonec/public_html/darkcode/pay.inc.php on line 6
+[15-Apr-2023 23:33:12 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_real_escape_string(): Argument #1 ($mysql) must be of type mysqli, null given in /home2/daydonec/public_html/darkcode/pay.inc.php:6
+Stack trace:
+#0 /home2/daydonec/public_html/darkcode/pay.inc.php(6): mysqli_real_escape_string()
+#1 {main}
+  thrown in /home2/daydonec/public_html/darkcode/pay.inc.php on line 6
+[21-Apr-2023 17:12:09 UTC] PHP Warning:  Attempt to read property "status" on array in /home2/daydonec/public_html/darkcode/paystack.ini.php on line 34
+[21-Apr-2023 17:34:02 UTC] PHP Warning:  Attempt to read property "status" on array in /home2/daydonec/public_html/darkcode/paystack.ini - Copy.php on line 34
+[23-Apr-2023 03:16:38 UTC] PHP Warning:  include(inc/header.php): Failed to open stream: No such file or directory in /home2/daydonec/public_html/darkcode/payondelivery.php on line 2
+[23-Apr-2023 03:16:38 UTC] PHP Warning:  include(): Failed opening 'inc/header.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home2/daydonec/public_html/darkcode/payondelivery.php on line 2
+[23-Apr-2023 03:16:38 UTC] PHP Warning:  include(inc/footer.php): Failed to open stream: No such file or directory in /home2/daydonec/public_html/darkcode/payondelivery.php on line 48
+[23-Apr-2023 03:16:38 UTC] PHP Warning:  include(): Failed opening 'inc/footer.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home2/daydonec/public_html/darkcode/payondelivery.php on line 48
+[29-Apr-2023 06:17:04 UTC] PHP Warning:  include_once(../dbh.php): Failed to open stream: No such file or directory in /home2/daydonec/public_html/darkcode/signup.inc.php on line 4
+[29-Apr-2023 06:17:04 UTC] PHP Warning:  include_once(): Failed opening '../dbh.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home2/daydonec/public_html/darkcode/signup.inc.php on line 4
+[29-Apr-2023 06:17:04 UTC] PHP Warning:  Undefined variable $conn in /home2/daydonec/public_html/darkcode/signup.inc.php on line 6
+[29-Apr-2023 06:17:04 UTC] PHP Warning:  Undefined array key "username" in /home2/daydonec/public_html/darkcode/signup.inc.php on line 6
+[29-Apr-2023 06:17:04 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_real_escape_string(): Argument #1 ($mysql) must be of type mysqli, null given in /home2/daydonec/public_html/darkcode/signup.inc.php:6
+Stack trace:
+#0 /home2/daydonec/public_html/darkcode/signup.inc.php(6): mysqli_real_escape_string()
+#1 {main}
+  thrown in /home2/daydonec/public_html/darkcode/signup.inc.php on line 6
+[01-May-2023 05:04:59 UTC] PHP Warning:  Undefined array key "user_id" in /home2/daydonec/public_html/darkcode/update.php on line 5
+[08-May-2023 23:25:29 UTC] PHP Warning:  include_once(../dbh.php): Failed to open stream: No such file or directory in /home2/daydonec/public_html/darkcode/signup.inc.php on line 4
+[08-May-2023 23:25:29 UTC] PHP Warning:  include_once(): Failed opening '../dbh.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home2/daydonec/public_html/darkcode/signup.inc.php on line 4
+[08-May-2023 23:25:29 UTC] PHP Warning:  Undefined variable $conn in /home2/daydonec/public_html/darkcode/signup.inc.php on line 6
+[08-May-2023 23:25:29 UTC] PHP Warning:  Undefined array key "username" in /home2/daydonec/public_html/darkcode/signup.inc.php on line 6
+[08-May-2023 23:25:29 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_real_escape_string(): Argument #1 ($mysql) must be of type mysqli, null given in /home2/daydonec/public_html/darkcode/signup.inc.php:6
+Stack trace:
+#0 /home2/daydonec/public_html/darkcode/signup.inc.php(6): mysqli_real_escape_string()
+#1 {main}
+  thrown in /home2/daydonec/public_html/darkcode/signup.inc.php on line 6
+[09-May-2023 07:12:20 UTC] PHP Warning:  Attempt to read property "status" on array in /home2/daydonec/public_html/darkcode/paystack.ini - Copy.php on line 34
+[16-May-2023 00:07:29 UTC] PHP Warning:  include_once(../dbh.php): Failed to open stream: No such file or directory in /home2/daydonec/public_html/darkcode/pay.inc.php on line 4
+[16-May-2023 00:07:29 UTC] PHP Warning:  include_once(): Failed opening '../dbh.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home2/daydonec/public_html/darkcode/pay.inc.php on line 4
+[16-May-2023 00:07:29 UTC] PHP Warning:  Undefined variable $conn in /home2/daydonec/public_html/darkcode/pay.inc.php on line 6
+[16-May-2023 00:07:29 UTC] PHP Warning:  Undefined array key "amount" in /home2/daydonec/public_html/darkcode/pay.inc.php on line 6
+[16-May-2023 00:07:29 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_real_escape_string(): Argument #1 ($mysql) must be of type mysqli, null given in /home2/daydonec/public_html/darkcode/pay.inc.php:6
+Stack trace:
+#0 /home2/daydonec/public_html/darkcode/pay.inc.php(6): mysqli_real_escape_string()
+#1 {main}
+  thrown in /home2/daydonec/public_html/darkcode/pay.inc.php on line 6
+[18-May-2023 02:18:00 UTC] PHP Warning:  include_once(../dbh.php): Failed to open stream: No such file or directory in /home2/daydonec/public_html/darkcode/msg.inc.php on line 4
+[18-May-2023 02:18:00 UTC] PHP Warning:  include_once(): Failed opening '../dbh.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home2/daydonec/public_html/darkcode/msg.inc.php on line 4
+[18-May-2023 02:18:00 UTC] PHP Warning:  Undefined variable $conn in /home2/daydonec/public_html/darkcode/msg.inc.php on line 6
+[18-May-2023 02:18:00 UTC] PHP Warning:  Undefined array key "Name" in /home2/daydonec/public_html/darkcode/msg.inc.php on line 6
+[18-May-2023 02:18:00 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_real_escape_string(): Argument #1 ($mysql) must be of type mysqli, null given in /home2/daydonec/public_html/darkcode/msg.inc.php:6
+Stack trace:
+#0 /home2/daydonec/public_html/darkcode/msg.inc.php(6): mysqli_real_escape_string()
+#1 {main}
+  thrown in /home2/daydonec/public_html/darkcode/msg.inc.php on line 6
+[18-May-2023 02:22:49 UTC] PHP Warning:  Attempt to read property "status" on array in /home2/daydonec/public_html/darkcode/paystack.ini.php on line 34
+[24-May-2023 09:02:16 UTC] PHP Warning:  Attempt to read property "status" on array in /home2/daydonec/public_html/darkcode/paystack.ini.php on line 34
+[24-May-2023 09:02:24 UTC] PHP Warning:  Attempt to read property "status" on array in /home2/daydonec/public_html/darkcode/paystack.ini - Copy.php on line 34
+[27-May-2023 14:26:18 UTC] PHP Warning:  include(inc/header.php): Failed to open stream: No such file or directory in /home2/daydonec/public_html/darkcode/payondelivery.php on line 2
+[27-May-2023 14:26:19 UTC] PHP Warning:  include(): Failed opening 'inc/header.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home2/daydonec/public_html/darkcode/payondelivery.php on line 2
+[27-May-2023 14:26:19 UTC] PHP Warning:  include(inc/footer.php): Failed to open stream: No such file or directory in /home2/daydonec/public_html/darkcode/payondelivery.php on line 48
+[27-May-2023 14:26:19 UTC] PHP Warning:  include(): Failed opening 'inc/footer.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home2/daydonec/public_html/darkcode/payondelivery.php on line 48
+[01-Jun-2023 18:43:42 UTC] PHP Warning:  include_once(../dbh.php): Failed to open stream: No such file or directory in /home2/daydonec/public_html/darkcode/pay.inc.php on line 4
+[01-Jun-2023 18:43:42 UTC] PHP Warning:  include_once(): Failed opening '../dbh.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home2/daydonec/public_html/darkcode/pay.inc.php on line 4
+[01-Jun-2023 18:43:42 UTC] PHP Warning:  Undefined variable $conn in /home2/daydonec/public_html/darkcode/pay.inc.php on line 6
+[01-Jun-2023 18:43:42 UTC] PHP Warning:  Undefined array key "amount" in /home2/daydonec/public_html/darkcode/pay.inc.php on line 6
+[01-Jun-2023 18:43:42 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_real_escape_string(): Argument #1 ($mysql) must be of type mysqli, null given in /home2/daydonec/public_html/darkcode/pay.inc.php:6
+Stack trace:
+#0 /home2/daydonec/public_html/darkcode/pay.inc.php(6): mysqli_real_escape_string()
+#1 {main}
+  thrown in /home2/daydonec/public_html/darkcode/pay.inc.php on line 6
+[04-Jun-2023 00:56:34 UTC] PHP Warning:  include(inc/header.php): Failed to open stream: No such file or directory in /home2/daydonec/public_html/darkcode/payondelivery.php on line 2
+[04-Jun-2023 00:56:34 UTC] PHP Warning:  include(): Failed opening 'inc/header.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home2/daydonec/public_html/darkcode/payondelivery.php on line 2
+[04-Jun-2023 00:56:34 UTC] PHP Warning:  include(inc/footer.php): Failed to open stream: No such file or directory in /home2/daydonec/public_html/darkcode/payondelivery.php on line 48
+[04-Jun-2023 00:56:34 UTC] PHP Warning:  include(): Failed opening 'inc/footer.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home2/daydonec/public_html/darkcode/payondelivery.php on line 48

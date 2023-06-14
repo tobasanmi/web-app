@@ -1,0 +1,5 @@
+
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^sales\.daydone\.com\.ng$
+RewriteRule ^/?$ "https\:\/\/sales\.daydone\.com\.ng\/" [R=301,L]
+

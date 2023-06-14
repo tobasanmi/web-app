@@ -1,0 +1,18 @@
+{
+	"Disabled": [
+		false,
+		"bool"
+	],
+	"ContactsPerPage": [
+		20,
+		"int"
+	],
+	"ImportContactsLink": [
+		"",
+		"string"
+	],
+	"AllowAddressBooksManagement": [
+		false,
+		"bool"
+	]
+}

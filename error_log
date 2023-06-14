@@ -1,0 +1,91 @@
+[17-Aug-2022 16:17:19 UTC] PHP Warning:  Undefined variable $conn in /home2/daydonec/public_html/checkout.php on line 10
+[17-Aug-2022 16:17:19 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, null given in /home2/daydonec/public_html/checkout.php:10
+Stack trace:
+#0 /home2/daydonec/public_html/checkout.php(10): mysqli_query()
+#1 {main}
+  thrown in /home2/daydonec/public_html/checkout.php on line 10
+[17-Aug-2022 16:17:37 UTC] PHP Warning:  Undefined variable $conn in /home2/daydonec/public_html/checkout.php on line 10
+[17-Aug-2022 16:17:37 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, null given in /home2/daydonec/public_html/checkout.php:10
+Stack trace:
+#0 /home2/daydonec/public_html/checkout.php(10): mysqli_query()
+#1 {main}
+  thrown in /home2/daydonec/public_html/checkout.php on line 10
+[17-Aug-2022 16:17:46 UTC] PHP Warning:  Undefined variable $conn in /home2/daydonec/public_html/checkout.php on line 10
+[17-Aug-2022 16:17:46 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, null given in /home2/daydonec/public_html/checkout.php:10
+Stack trace:
+#0 /home2/daydonec/public_html/checkout.php(10): mysqli_query()
+#1 {main}
+  thrown in /home2/daydonec/public_html/checkout.php on line 10
+[17-Aug-2022 16:17:57 UTC] PHP Warning:  Undefined variable $conn in /home2/daydonec/public_html/checkout.php on line 10
+[17-Aug-2022 16:17:57 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, null given in /home2/daydonec/public_html/checkout.php:10
+Stack trace:
+#0 /home2/daydonec/public_html/checkout.php(10): mysqli_query()
+#1 {main}
+  thrown in /home2/daydonec/public_html/checkout.php on line 10
+[17-Aug-2022 16:20:08 UTC] PHP Warning:  include_once(db.php): Failed to open stream: No such file or directory in /home2/daydonec/public_html/checkout.php on line 3
+[17-Aug-2022 16:20:08 UTC] PHP Warning:  include_once(): Failed opening 'db.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home2/daydonec/public_html/checkout.php on line 3
+[17-Aug-2022 16:20:29 UTC] PHP Warning:  include_once(db.php): Failed to open stream: No such file or directory in /home2/daydonec/public_html/checkout.php on line 3
+[17-Aug-2022 16:20:29 UTC] PHP Warning:  include_once(): Failed opening 'db.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home2/daydonec/public_html/checkout.php on line 3
+[17-Aug-2022 16:20:29 UTC] PHP Warning:  Undefined variable $conn in /home2/daydonec/public_html/checkout.php on line 11
+[17-Aug-2022 16:20:29 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, null given in /home2/daydonec/public_html/checkout.php:11
+Stack trace:
+#0 /home2/daydonec/public_html/checkout.php(11): mysqli_query()
+#1 {main}
+  thrown in /home2/daydonec/public_html/checkout.php on line 11
+[18-Aug-2022 14:45:02 UTC] PHP Parse error:  Unclosed '{' on line 13 in /home2/daydonec/public_html/order-details.php on line 110
+[30-Aug-2022 04:14:23 UTC] PHP Warning:  foreach() argument must be of type array|object, null given in /home2/daydonec/public_html/process_pay.php on line 17
+[21-Sep-2022 14:20:42 UTC] PHP Parse error:  Unclosed '{' on line 455 in /home2/daydonec/public_html/product.php on line 717
+[21-Sep-2022 14:20:50 UTC] PHP Parse error:  Unclosed '{' on line 455 in /home2/daydonec/public_html/product.php on line 717
+[21-Sep-2022 14:20:55 UTC] PHP Parse error:  Unclosed '{' on line 455 in /home2/daydonec/public_html/product.php on line 717
+[21-Sep-2022 14:21:00 UTC] PHP Parse error:  Unclosed '{' on line 455 in /home2/daydonec/public_html/product.php on line 717
+[21-Sep-2022 14:21:05 UTC] PHP Parse error:  Unclosed '{' on line 455 in /home2/daydonec/public_html/product.php on line 717
+[21-Sep-2022 14:21:23 UTC] PHP Parse error:  Unclosed '{' on line 455 in /home2/daydonec/public_html/product.php on line 717
+[21-Sep-2022 14:21:32 UTC] PHP Parse error:  Unclosed '{' on line 455 in /home2/daydonec/public_html/product.php on line 717
+[21-Sep-2022 14:21:41 UTC] PHP Parse error:  Unclosed '{' on line 455 in /home2/daydonec/public_html/product.php on line 717
+[29-Sep-2022 10:38:16 UTC] PHP Warning:  foreach() argument must be of type array|object, null given in /home2/daydonec/public_html/process_pay.php on line 17
+[13-Nov-2022 09:21:55 UTC] PHP Warning:  Undefined variable $base_url in /home2/daydonec/public_html/uifoods.php on line 13
+[13-Nov-2022 09:21:55 UTC] PHP Warning:  Undefined variable $base_url in /home2/daydonec/public_html/uifoods.php on line 15
+[13-Nov-2022 09:21:55 UTC] PHP Warning:  Undefined variable $base_url in /home2/daydonec/public_html/uifoods.php on line 17
+[13-Nov-2022 09:21:55 UTC] PHP Warning:  Undefined variable $base_url in /home2/daydonec/public_html/uifoods.php on line 19
+[13-Nov-2022 09:21:55 UTC] PHP Warning:  Undefined variable $base_url in /home2/daydonec/public_html/uifoods.php on line 21
+[13-Nov-2022 09:21:55 UTC] PHP Warning:  Undefined variable $base_url in /home2/daydonec/public_html/uifoods.php on line 23
+[13-Nov-2022 09:21:55 UTC] PHP Warning:  Undefined variable $base_url in /home2/daydonec/public_html/uifoods.php on line 25
+[13-Nov-2022 09:21:55 UTC] PHP Warning:  Undefined variable $base_url in /home2/daydonec/public_html/uifoods.php on line 27
+[13-Nov-2022 09:21:55 UTC] PHP Warning:  Undefined variable $base_url in /home2/daydonec/public_html/uifoods.php on line 29
+[13-Nov-2022 09:21:55 UTC] PHP Warning:  Undefined variable $base_url in /home2/daydonec/public_html/uifoods.php on line 40
+[13-Nov-2022 09:21:55 UTC] PHP Warning:  Undefined variable $base_url in /home2/daydonec/public_html/uifoods.php on line 41
+[13-Nov-2022 09:21:55 UTC] PHP Warning:  Undefined variable $base_url in /home2/daydonec/public_html/uifoods.php on line 51
+[13-Nov-2022 09:21:55 UTC] PHP Warning:  Undefined variable $base_url in /home2/daydonec/public_html/uifoods.php on line 124
+[13-Nov-2022 09:21:55 UTC] PHP Warning:  Undefined variable $base_url in /home2/daydonec/public_html/uifoods.php on line 136
+[13-Nov-2022 09:21:55 UTC] PHP Warning:  Undefined variable $base_url in /home2/daydonec/public_html/uifoods.php on line 148
+[13-Nov-2022 09:21:55 UTC] PHP Warning:  Undefined variable $base_url in /home2/daydonec/public_html/uifoods.php on line 178
+[13-Nov-2022 09:21:55 UTC] PHP Warning:  Undefined variable $base_url in /home2/daydonec/public_html/uifoods.php on line 187
+[13-Nov-2022 09:21:55 UTC] PHP Warning:  Undefined variable $base_url in /home2/daydonec/public_html/uifoods.php on line 270
+[13-Nov-2022 09:21:55 UTC] PHP Warning:  Undefined variable $base_url in /home2/daydonec/public_html/uifoods.php on line 284
+[13-Nov-2022 09:21:55 UTC] PHP Warning:  Undefined variable $base_url in /home2/daydonec/public_html/uifoods.php on line 298
+[13-Nov-2022 09:21:55 UTC] PHP Warning:  Undefined variable $base_url in /home2/daydonec/public_html/uifoods.php on line 312
+[13-Nov-2022 09:21:55 UTC] PHP Warning:  Undefined variable $base_url in /home2/daydonec/public_html/uifoods.php on line 406
+[13-Nov-2022 09:21:55 UTC] PHP Warning:  Undefined variable $base_url in /home2/daydonec/public_html/uifoods.php on line 407
+[13-Nov-2022 09:21:55 UTC] PHP Warning:  Undefined variable $base_url in /home2/daydonec/public_html/uifoods.php on line 438
+[13-Nov-2022 09:21:55 UTC] PHP Warning:  Undefined variable $base_url in /home2/daydonec/public_html/uifoods.php on line 439
+[13-Nov-2022 09:21:55 UTC] PHP Warning:  Undefined variable $base_url in /home2/daydonec/public_html/uifoods.php on line 440
+[13-Nov-2022 09:21:55 UTC] PHP Warning:  Undefined variable $base_url in /home2/daydonec/public_html/uifoods.php on line 458
+[13-Nov-2022 09:21:55 UTC] PHP Warning:  Undefined variable $base_url in /home2/daydonec/public_html/uifoods.php on line 460
+[13-Nov-2022 09:21:55 UTC] PHP Warning:  Undefined variable $base_url in /home2/daydonec/public_html/uifoods.php on line 462
+[13-Nov-2022 09:21:55 UTC] PHP Warning:  Undefined variable $base_url in /home2/daydonec/public_html/uifoods.php on line 464
+[13-Nov-2022 09:21:55 UTC] PHP Warning:  Undefined variable $base_url in /home2/daydonec/public_html/uifoods.php on line 466
+[13-Nov-2022 09:21:55 UTC] PHP Warning:  Undefined variable $base_url in /home2/daydonec/public_html/uifoods.php on line 468
+[13-Nov-2022 09:21:55 UTC] PHP Warning:  Undefined variable $base_url in /home2/daydonec/public_html/uifoods.php on line 470
+[13-Nov-2022 09:21:55 UTC] PHP Warning:  Undefined variable $base_url in /home2/daydonec/public_html/uifoods.php on line 472
+[13-Nov-2022 09:21:55 UTC] PHP Warning:  Undefined variable $base_url in /home2/daydonec/public_html/uifoods.php on line 474
+[13-Nov-2022 09:21:55 UTC] PHP Warning:  Undefined variable $base_url in /home2/daydonec/public_html/uifoods.php on line 476
+[13-Nov-2022 09:21:55 UTC] PHP Warning:  Undefined variable $base_url in /home2/daydonec/public_html/uifoods.php on line 478
+[13-Nov-2022 09:21:55 UTC] PHP Warning:  Undefined variable $base_url in /home2/daydonec/public_html/uifoods.php on line 481
+[13-Nov-2022 09:21:55 UTC] PHP Warning:  Undefined variable $base_url in /home2/daydonec/public_html/uifoods.php on line 483
+[13-Nov-2022 09:21:55 UTC] PHP Warning:  Undefined variable $base_url in /home2/daydonec/public_html/uifoods.php on line 485
+[22-Nov-2022 17:00:29 UTC] PHP Warning:  foreach() argument must be of type array|object, null given in /home2/daydonec/public_html/process_pay.php on line 17
+[22-Dec-2022 11:48:56 UTC] PHP Warning:  foreach() argument must be of type array|object, null given in /home2/daydonec/public_html/process_pay.php on line 17
+[24-Dec-2022 15:27:35 UTC] PHP Warning:  foreach() argument must be of type array|object, null given in /home2/daydonec/public_html/process_pay.php on line 17
+[14-Feb-2023 09:11:10 UTC] PHP Warning:  foreach() argument must be of type array|object, null given in /home2/daydonec/public_html/process_pay.php on line 17
+[01-Mar-2023 20:19:43 UTC] PHP Warning:  foreach() argument must be of type array|object, null given in /home2/daydonec/public_html/process_pay.php on line 17
+[06-May-2023 04:49:03 UTC] PHP Warning:  foreach() argument must be of type array|object, null given in /home2/daydonec/public_html/process_pay.php on line 17

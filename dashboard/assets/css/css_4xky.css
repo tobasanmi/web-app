@@ -1,0 +1,42 @@
+
+.form_dropdown{  
+   border: 1px solid #D2D6DE; 
+   width:100%;
+   height:33px;
+}
+
+
+.add_product_img_lable{
+   width:100%  ;
+}
+
+
+.add_product_img_lable div{
+   border: 2px solid deepskyblue; 
+   border-radius:5px;
+   margin:10px;
+   width:100px;
+   height:100px;
+}
+
+.add_product_img_lable div i{
+  font-size:35px;
+  padding-top:30px;
+  color:#94D7FE;
+}
+
+.add_product_img_lable span{
+  font-size:11px;
+  margin-top:20px;
+  line-height:1px;
+  color:#999999;
+}
+
+.add_product_img_lable img{
+   height:100px;
+   max-width:auto;
+}
+
+.productstatus{
+   font-size:10px;
+}
